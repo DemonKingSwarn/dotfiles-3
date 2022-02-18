@@ -1,0 +1,24 @@
+#!/bin/zsh
+
+alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias ..='cd ..'
+alias hst='nvim ~/.histfile'
+alias ls='ls --color=auto'
+
+# Confirmations
+alias mv='mv -i'
+alias rm='rm -i'
+alias ln='ln -i'
+alias cp='cp -i'
+
+# QoL
+alias n="$EDITOR"
+alias c='clear'
+alias xcc='xclip -selection clipboard'
+alias xco='xclip -selection clipboard -o'
+alias sxiv='nsxiv'
+
+# Package Management
+alias install="paru -S --noconfirm"
+alias uninstall="paru -R --noconfirm"
+alias update="paru -Syu --noconfirm"

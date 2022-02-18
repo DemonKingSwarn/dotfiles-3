@@ -1,0 +1,16 @@
+#!/bin/zsh
+
+if [[ "$(tty)" = "/dev/tty1" ]]; then
+	pgrep bspwm || startx "$XDG_CONFIG_HOME/X11/xinitrc"
+fi
+
+export EDITOR="nvim"
+export TERMINAL="kitty"
+export BROWSER="firefox"
+export XINITRC="$HOME/.config/X11/xinitrc"
+
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
+
+export PATH=/home/demonkingswarn/.scripts:/home/demonkingswarn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/demonkingswarn/.cargo/bin
