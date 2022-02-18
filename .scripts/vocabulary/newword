@@ -1,0 +1,5 @@
+#!/bin/bash
+
+word=$(echo "" | dmenu -p "Add word: ")
+meaning=$(echo "" | dmenu -p "Add meaning: ")
+echo "$word | $meaning" >> ~/.scripts/vocabulary/words.txt

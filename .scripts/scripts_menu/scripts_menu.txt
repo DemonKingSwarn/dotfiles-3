@@ -1,0 +1,7 @@
+../unicode/unicode
+../bookmarks/bookmarks
+../reddit_images
+../wificon
+../custom_emoji/subscripts/matrixrun
+../share
+../pastebin
