@@ -1,0 +1,1 @@
+/home/demonkingswarn/.config/zsh/.zshrc
