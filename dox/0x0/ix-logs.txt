@@ -1,0 +1,5 @@
+[16-02-22-19_29_14] 	http://ix.io/3PL1 	/home/demonkingswarn/.scripts/set_wallpaper
+[16-02-22-20_36_45] 	http://ix.io/3PKY 	/home/demonkingswarn/.scripts/share
+[16-02-22-20_39_31] 	http://ix.io/3PL1 	/home/demonkingswarn/.scripts/set_wallpaper
+[16-02-22-21_21_36] 	http://ix.io/3PKY 	/home/demonkingswarn/.scripts/share
+[17-02-22-16_03_41] 	http://ix.io/3PPw 	/home/demonkingswarn/.scripts/custom_emoji/subscripts/run

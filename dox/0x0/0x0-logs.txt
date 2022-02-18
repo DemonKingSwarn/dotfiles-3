@@ -1,0 +1,9 @@
+[16-02-22-19_07_02] 	http://0x0.st/o8Qq.sh 	/home/demonkingswarn/.scripts/set_wallpaper
+[16-02-22-19_07_49] 	http://0x0.st/o8QT.sh 	/home/demonkingswarn/.scripts/share
+[16-02-22-19_19_30] 	http://0x0.st/o8Q_.png 	/home/demonkingswarn/pix/wall/rawque.png
+[16-02-22-19_56_35] 	http://0x0.st/ooLd.pdf 	/home/demonkingswarn/dox/ebooks/Ikigai.pdf
+[16-02-22-20_35_17] 	http://0x0.st/o81m.jpg 	/home/demonkingswarn/pix/wall/wallhaven-z8xo8y.jpg
+[16-02-22-20_48_28] 	http://0x0.st/o81j.sh 	/home/demonkingswarn/.config/sxhkd/sxhkdrc
+[17-02-22-08_58_14] 	http://0x0.st/o89K.jpg 	/home/demonkingswarn/pix/wall/tell_me_the_truth.jpg
+[17-02-22-13_00_04] 	http://0x0.st/o8pz.jpg 	/home/demonkingswarn/pix/wall/wallhaven-95j9pw.jpg
+[17-02-22-16_02_34] 	http://0x0.st/o8pk.jpg 	/home/demonkingswarn/pix/wall/wallhaven-g8pv5e.jpg
