@@ -1,0 +1,15 @@
+[user]
+	email = rockingswarn@gmail.com
+	name = DemonKingSwarn
+[init]
+	defaultBranch = main
+[alias]
+	cmp = "!f() { git add . && git commit -m \"$@\" && git push; }; f"
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[http]
+	sslverify = false
