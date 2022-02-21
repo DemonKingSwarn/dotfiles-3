@@ -4,6 +4,7 @@ alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ..='cd ..'
 alias hst='nvim ~/.histfile'
 alias ls='ls --color=auto'
+alias ytdl='youtube-dl -f 137+140'
 
 # Confirmations
 alias mv='mv -i'
@@ -16,7 +17,6 @@ alias n="$EDITOR"
 alias c='clear'
 alias xcc='xclip -selection clipboard'
 alias xco='xclip -selection clipboard -o'
-alias sxiv='nsxiv'
 
 # Package Management
 alias install="paru -S --noconfirm"
