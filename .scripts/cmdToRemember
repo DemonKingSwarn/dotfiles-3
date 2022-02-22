@@ -1,4 +1,0 @@
-convert *.png -append attendance.png
-convert *.png +append attendance.png
-
-
