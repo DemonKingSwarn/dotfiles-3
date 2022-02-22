@@ -1,4 +1,4 @@
 #!/bin/bash
 
-file=$(find $HOME/Music -iname '*.mp3' | dmenu -i -l 20)
-paplay $file
+file=$(find $HOME/vids/Music -iname '*.ogg' | dmenu -i -l 20)
+mpv $file
