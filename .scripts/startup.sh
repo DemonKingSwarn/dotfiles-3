@@ -8,4 +8,4 @@ dunst &
 $HOME/.scripts/set_wallpaper &
 $HOME/.config/polybar/launch.sh &
 flameshot &
-mpd &
+setxkbmap -option ctrl:nocaps
