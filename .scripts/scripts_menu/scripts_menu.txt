@@ -7,3 +7,4 @@
 ../pastebin
 ../radio
 ../music.sh
+../ani-dmenu
