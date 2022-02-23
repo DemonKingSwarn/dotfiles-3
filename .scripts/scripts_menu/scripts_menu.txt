@@ -8,3 +8,4 @@
 ../radio
 ../music.sh
 ../ani-dmenu
+../recordscreen.sh

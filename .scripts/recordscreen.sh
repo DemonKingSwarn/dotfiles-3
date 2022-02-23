@@ -1,3 +1,4 @@
 #!/bin/sh
 
-ffmpeg -f x11grab -s 1366x768 -i :1 out.mkv
+name=$(printf '%s' "$*" | dmenu -i -p "Enter file name:" | tr ' ' '-')
+ffmpeg -video_size 1920x1080 -framerate 25 -f x11grab -i :0.0+100,200 "$HOME/vids/recordings/$name"
