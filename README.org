@@ -1,7 +1,0 @@
-* dotfiles-3
-** Introduction
-These are my dotfiles, intended to be installable.
-** Caveats
-*** Extra POSIX =readline=
-Many of the scripts under =~/.scripts= require =readline= with =-f= available, which is not necessarily available on *BSD/Plan9/MacOS/Alpine. This is used to set =SCRIPT_DIR=, which allows scripts to be called from anywhere, as symlinks or otherwise, while retaining functionality
-
