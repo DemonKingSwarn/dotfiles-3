@@ -4,13 +4,13 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 Print
-	flameshot full -c 
+	flameshot full -p $HOME/pix/screenshots/ -c 
 
 super + Print
 	flameshot gui
 
 F12
-	flameshot full -d 1000 -c
+	flameshot full -d 1000 -p $HOME/pix/screenshots/ -c
 
 super + d
 	rofi -show run
@@ -19,7 +19,7 @@ alt + d
 	dmenu_run
 
 super + Return
-	kitty
+	st
 
 super + w
 	$HOME/.scripts/custom_emoji/custom_emoji.sh
