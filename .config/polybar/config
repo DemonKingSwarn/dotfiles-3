@@ -44,6 +44,10 @@ font-5 = "Source Han Sans CN:size=9;2"
 modules-left = bspwm
 modules-right = pulseaudio date
 
+tray-position = right
+tray-padding = 2
+tray-maxsize = 22
+
 cursor-click = pointer
 
 [bar/external]
