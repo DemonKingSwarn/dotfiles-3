@@ -11,6 +11,7 @@ setxkbmap -option ctrl:nocaps
 sxhkd &
 
 # system
+nm-applet &
 flameshot &
 
 # rice
