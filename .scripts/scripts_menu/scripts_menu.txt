@@ -3,8 +3,8 @@
 ../reddit_images
 ../wificon
 ../custom_emoji/subscripts/matrixrun
-../share
-../pastebin
+../0x0/share
+../0x0/pastebin
 ../radio
 ../music
 ../ani-dmenu
