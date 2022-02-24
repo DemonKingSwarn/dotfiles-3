@@ -6,6 +6,7 @@
 ../share
 ../pastebin
 ../radio
-../music.sh
+../music
 ../ani-dmenu
-../recordscreen.sh
+../recordscreen
+../mpv
