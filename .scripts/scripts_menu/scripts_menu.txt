@@ -9,4 +9,4 @@
 ../music
 ../ani-dmenu
 ../recordscreen
-../mpv
+../playvideo
