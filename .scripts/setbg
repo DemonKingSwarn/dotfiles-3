@@ -1,0 +1,4 @@
+#!/bin/sh
+
+ feh --bg-fill $HOME/pix/nordic-wall/ign_mandalorian.jpg
+ wal -i $HOME/pix/nordic-wall/ign_mandalorian.jpg

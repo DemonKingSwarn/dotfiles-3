@@ -17,9 +17,8 @@ flameshot &
 picom --experimental-backends -f -b &
 dunst &
 #$HOME/.scripts/set_wallpaper &
-feh --bg-fill $HOME/pix/nordic-wall/ign_mandalorian.jpg &
+$HOME/.scripts/setbg &
 $HOME/.config/polybar/launch.sh &
-wal -i $HOME/pix/nordic-wall/ign_mandalorian.jpg &
 
 while true;
 do
