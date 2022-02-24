@@ -17,8 +17,8 @@ flameshot &
 # rice
 picom --experimental-backends -f -b &
 dunst &
-#$HOME/.scripts/setbg/set_wallpaper &
-$HOME/.scripts/setbg/setbg &
+$HOME/.scripts/setbg/set_wallpaper &
+#$HOME/.scripts/setbg/setbg &
 $HOME/.config/polybar/launch.sh &
 
 while true;

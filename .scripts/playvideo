@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+vlc $(xclip -sel c -o)
