@@ -10,3 +10,4 @@
 ../ani-dmenu
 ../recordscreen
 ../playvideo
+../imagesaver
