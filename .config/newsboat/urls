@@ -1,14 +1,4 @@
 
 "query:Linux Reddit:tags # \"content\" or title =~ \"\\[OC\\]\"" meta
 "query:Unread:unread = \"yes\"" meta
-
-https://www.reddit.com/r/archlinux/new.rss reddit content
-https://www.reddit.com/r/linux/new.rss reddit content
-https://www.reddit.com/r/bspwm/new.rss reddit content
-https://www.reddit.com/r/ManjaroLinux/new.rss reddit content
-https://www.reddit.com/r/Ubuntu/new.rss reddit content
-https://www.reddit.com/r/commandline/new.rss reddit content
-https://www.reddit.com/r/vim/new.rss reddit content
-https://www.reddit.com/r/unixporn/new.rss reddit
-https://news.ycombinator.com/rss news
-https://kumi.tube/lazy-static/torrents/992cba90-f71a-4e14-b490-aee2f2cc22b8-406.torrent content
+http://localhost:3000/feed/private?token=1e6FNNEpz6zD3KSa0Ahk2rRTNLkDAnnuBGLWcoawtuM= feed
