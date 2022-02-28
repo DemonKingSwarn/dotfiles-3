@@ -1,4 +1,5 @@
 #!/bin/sh
 
- feh --bg-fill $HOME/pix/nordic-wall/ign_mandalorian.jpg
- wal -i $HOME/pix/nordic-wall/ign_mandalorian.jpg
+file="$HOME/pix/permanent-wall/cosmic-girl.jpg"
+ feh --bg-fill "$file"
+ wal -i "$file"
