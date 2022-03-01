@@ -1,0 +1,6 @@
+#!/bin/sh
+
+url=$(xclip -sel c -o)
+newURL=$(echo "$url" | sed 's/localhost:3000/yewtu.be/g')
+echo "$newURL" | xclip -sel c
+notify-send "Your new URL is $newURL"

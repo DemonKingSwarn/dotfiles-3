@@ -11,3 +11,4 @@
 ../recordscreen
 ../playvideo
 ../imagesaver
+../invidiousURL
