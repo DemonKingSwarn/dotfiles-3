@@ -1,0 +1,8 @@
+config_version: 2
+settings:
+  colors.webpage.darkmode.enabled:
+    global: true
+  colors.webpage.darkmode.policy.page:
+    global: always
+  colors.webpage.prefers_color_scheme_dark:
+    global: true
