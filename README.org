@@ -1,5 +1,5 @@
-* These are my dotfiles
-  Intended to be installable.
+* dotfiles-3
+  These are my dotfiles, intended to be installable.
 
 * Caveats
   - Some directories are symlinks to another repository like =.emacs.d= is the symlink for [[https://github.com/demonkingswarn/.emacs.d][.emacs.d]], so make sure to check for them.
