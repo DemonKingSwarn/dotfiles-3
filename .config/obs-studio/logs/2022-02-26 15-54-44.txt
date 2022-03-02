@@ -1,0 +1,107 @@
+15:54:44.088: CPU Name: Intel(R) Core(TM) i3-2330M CPU @ 2.20GHz
+15:54:44.088: CPU Speed: 2200.000MHz
+15:54:44.088: Physical Cores: 2, Logical Cores: 4
+15:54:44.088: Physical Memory: 2821MB Total, 369MB Free
+15:54:44.088: Kernel Version: Linux 5.16.10-arch1-1
+15:54:44.088: Distribution: "Arch Linux" Unknown
+15:54:44.088: Session Type: tty
+15:54:44.088: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+15:54:44.089: Qt Version: 5.15.2 (runtime), 5.15.2 (compiled)
+15:54:44.089: Portable mode: false
+15:54:44.246: OBS 27.2.1-1 (linux)
+15:54:44.246: ---------------------------------
+15:54:44.247: ---------------------------------
+15:54:44.247: audio settings reset:
+15:54:44.247: 	samples per sec: 48000
+15:54:44.247: 	speakers:        2
+15:54:44.279: ---------------------------------
+15:54:44.279: Initializing OpenGL...
+15:54:44.405: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) HD Graphics 3000 (SNB GT2)
+15:54:44.406: OpenGL loaded successfully, version 3.3 (Core Profile) Mesa 21.3.7, shading language 3.30
+15:54:44.776: ---------------------------------
+15:54:44.776: video settings reset:
+15:54:44.776: 	base resolution:   1366x768
+15:54:44.776: 	output resolution: 1092x614
+15:54:44.776: 	downscale filter:  Bicubic
+15:54:44.776: 	fps:               30/1
+15:54:44.776: 	format:            NV12
+15:54:44.776: 	YUV mode:          709/Partial
+15:54:44.777: NV12 texture support not available
+15:54:44.783: Audio monitoring device:
+15:54:44.783: 	name: Default
+15:54:44.783: 	id: default
+15:54:44.783: ---------------------------------
+15:54:44.793: Failed to load 'en-US' text for module: 'decklink-captions.so'
+15:54:44.822: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+15:54:45.743: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+15:54:45.743: No blackmagic support
+15:54:45.887: v4l2loopback not installed, virtual camera disabled
+15:54:46.181: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+15:54:46.181: 
+15:54:46.181: FFMPEG VAAPI supported
+15:54:46.335: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+15:54:46.335: 
+15:54:46.335: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+15:54:46.339: ---------------------------------
+15:54:46.339:   Loaded Modules:
+15:54:46.339:     text-freetype2.so
+15:54:46.339:     rtmp-services.so
+15:54:46.339:     obs-x264.so
+15:54:46.339:     obs-transitions.so
+15:54:46.339:     obs-outputs.so
+15:54:46.340:     obs-libfdk.so
+15:54:46.340:     obs-filters.so
+15:54:46.340:     obs-ffmpeg.so
+15:54:46.340:     linux-v4l2.so
+15:54:46.340:     linux-pulseaudio.so
+15:54:46.340:     linux-jack.so
+15:54:46.340:     linux-decklink.so
+15:54:46.340:     linux-capture.so
+15:54:46.340:     linux-alsa.so
+15:54:46.340:     image-source.so
+15:54:46.340:     frontend-tools.so
+15:54:46.340:     decklink-ouput-ui.so
+15:54:46.340:     decklink-captions.so
+15:54:46.340: ---------------------------------
+15:54:46.340: ==== Startup complete ===============================================
+15:54:46.347: No scene file found, creating default scene
+15:54:46.385: All scene data cleared
+15:54:46.385: ------------------------------------------------
+15:54:46.397: pulse-input: Server name: 'pulseaudio 15.0'
+15:54:46.397: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+15:54:46.397: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+15:54:46.407: pulse-input: Server name: 'pulseaudio 15.0'
+15:54:46.449: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+15:54:46.450: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+15:54:46.450: Switched to scene 'Scene'
+15:54:46.450: Failed to glob scene collections
+15:55:08.757: xshm-input: Geometry 1366x768 @ 0,0
+15:55:08.765: User added source 'Screen Capture (XSHM)' (xshm_input) to scene 'Scene'
+15:55:29.053: ---------------------------------
+15:55:29.053: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+15:55:29.054: [x264 encoder: 'simple_h264_stream'] settings:
+15:55:29.054: 	rate_control: CBR
+15:55:29.054: 	bitrate:      2500
+15:55:29.054: 	buffer size:  2500
+15:55:29.054: 	crf:          23
+15:55:29.054: 	fps_num:      30
+15:55:29.054: 	fps_den:      1
+15:55:29.054: 	width:        1092
+15:55:29.054: 	height:       614
+15:55:29.054: 	keyint:       250
+15:55:29.054: 
+15:55:29.060: libfdk_aac encoder created
+15:55:29.060: libfdk_aac bitrate: 160, channels: 2
+15:55:29.062: ==== Recording Start ===============================================
+15:55:29.062: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/demonkingswarn/2022-02-26 15-55-29.mkv'...
+15:55:51.040: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/demonkingswarn/2022-02-26 15-55-29.mkv' stopped
+15:55:51.040: Output 'simple_file_output': stopping
+15:55:51.040: Output 'simple_file_output': Total frames output: 634
+15:55:51.040: Output 'simple_file_output': Total drawn frames: 658 (659 attempted)
+15:55:51.040: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 1 (0.2%)
+15:55:51.040: ==== Recording Stop ================================================
+15:55:51.046: libfdk_aac encoder destroyed
+15:55:54.956: Failed to fetch parent window geometry!
+15:55:54.956: Failed to fetch parent window geometry!
+15:55:54.956: Failed to fetch parent window geometry!
+15:55:54.957: Failed to fetch parent window geometry!

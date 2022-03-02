@@ -5,7 +5,7 @@
 // @description 	Inverts the brightness of pages
 // @version 		4.7.15
 // @homapeageURL 	https://darkreader.org | https://github.com/darkreader/darkreader
-// @run-at 			document-end
+// @run-at 			document-begin
 // @grant 			none
 // @include 		http*
 // @require 		https://cdn.jsdeLivr.net/npm/darkreader/darkreader.min.js

@@ -1,0 +1,55 @@
+[CompactMode]
+FontWeight=50
+
+[ContextMenu]
+ShowOpenTerminal=false
+
+[Desktop Entry]
+DefaultProfile=
+
+[DetailsMode]
+FontWeight=50
+
+[General]
+ShowFullPath=true
+ShowFullPathInTitlebar=true
+Version=201
+ViewPropsTimestamp=2021,10,15,16,3,44.102
+
+[IconsMode]
+FontWeight=50
+
+[KPropertiesDialog]
+Virtual-1 Height 1920x941=568
+Virtual-1 Width 1920x941=470
+
+[MainWindow]
+HDMI-1 XPosition 1920x1080=410
+HDMI-1 YPosition 1920x1080=203
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC4AAAB0vwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAuAAAB0gAAAF0BAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAoBAAADAAAB8QAAAdIAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Virtual-1 Height 1272x598=514
+Virtual-1 Height 1920x941=868
+Virtual-1 Height 952x935=851
+Virtual-1 Width 1272x598=913
+Virtual-1 Width 1920x941=960
+Virtual-1 Width 952x935=913
+Virtual-1 XPosition 1024x768=218
+Virtual-1 XPosition 1272x598=4
+Virtual-1 XPosition 1920x941=526
+Virtual-1 XPosition 952x935=0
+Virtual-1 YPosition 1024x768=160
+Virtual-1 YPosition 1272x598=36
+Virtual-1 YPosition 1920x941=29
+Virtual-1 YPosition 952x935=36
+
+[Notification Messages]
+ConfirmDelete=true
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,pothumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
+
+[SettingsDialog]
+Virtual-1 Height 1920x941=508
+Virtual-1 Width 1920x941=647
