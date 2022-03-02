@@ -20,6 +20,7 @@ picom --experimental-backends -f -b &
 dunst &
 $HOME/.scripts/setbg/setbg &
 $HOME/.config/polybar/launch.sh &
+bspswallow &
 
 while true;
 do

@@ -11,4 +11,4 @@
 ../recordscreen
 ../playvideo
 ../imagesaver
-../invidiousURL
+../invidious_copy

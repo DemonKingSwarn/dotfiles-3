@@ -2,6 +2,6 @@
 
 url=$(xclip -sel c -o)
 httpsurl=$(echo "$url" | sed 's/http/https/g')
-newURL=$(echo "$httpsurl" | sed 's/localhost:3000/youtube.com/g')
+newURL=$(echo "$httpsurl" | sed 's/localhost:3000/yewtu.be/g')
 echo "$newURL" | xclip -sel c
 notify-send "Your new URL is $newURL"
