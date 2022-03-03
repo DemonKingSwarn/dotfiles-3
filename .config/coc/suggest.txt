@@ -1,3 +1,12 @@
+|cosmic-girl.jpg|file
+per|permanent-wall|file
+raw|rawque.png|file
+i|ign_chineseIG.png|file
+dar|dark|file
+Wallpap|Wallpapers|file
+|Nordic-Heroin.png|file
+Nord|Nordic|file
+Wall|Wallpapers|file
 contr|contributions|around
 invi|invidious_copy.sh|file
 new|newURL|around
@@ -23,8 +32,6 @@ ytplay|ytplay|around
 demonkingswarn|demonkingswarn|around
 depend|dependencies|around
 setbg|setbg|file
-|cosmic-girl.jpg|file
-per|permanent-wall|file
 name|name|around
 images|imagesaver|file
 lock|lock.sh|file
