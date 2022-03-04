@@ -146,4 +146,4 @@ configuration {
   }
 }
 
-@theme "~/.config/rofi/nord.rasi"
+@theme "~/.config/rofi/palenight.rasi"

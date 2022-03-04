@@ -1,3 +1,5 @@
+|pywal.sh|file
+palen|palenight.rasi|file
 |cosmic-girl.jpg|file
 per|permanent-wall|file
 raw|rawque.png|file

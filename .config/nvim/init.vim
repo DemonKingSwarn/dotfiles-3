@@ -20,18 +20,17 @@ endif
 
 " Plugged
 call plug#begin(expand('~/.vim/plugged'))
-Plug 'joshdick/onedark.vim'
+Plug 'drewtempelmeyer/palenight.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'Mofiqul/vscode.nvim'
 call plug#end()
 
 
 " UI
 set number relativenumber
-colorscheme onedark
+colorscheme palenight
+set background=dark
 let g:nord_cursor_line_number_background = 1
 let g:nord_uniform_diff_background = 1
-let g:vscode_style = "dark"
 
 " Indentation
 set tabstop=4
