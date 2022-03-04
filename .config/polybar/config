@@ -40,6 +40,7 @@ font-2 = "JetBrainsMono Nerd Font:size=19;5"
 font-3 = "Material Icons Outlined:9;4"
 font-4 = "Material Icons Round:9;4"
 font-5 = "Source Han Sans CN:size=9;2"
+font-6 = "Noto Color Emoji:pixelsize=16:style=Regular:scale=10;2"
 
 modules-left = bspwm
 modules-right = nettraf pulseaudio date
