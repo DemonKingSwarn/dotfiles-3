@@ -43,7 +43,7 @@ font-5 = "Source Han Sans CN:size=9;2"
 font-6 = "Noto Color Emoji:pixelsize=16:style=Regular:scale=10;2"
 
 modules-left = bspwm
-modules-right = nettraf margin volume margin clock margin internet
+modules-right = nettraf empty-space volume empty-space clock empty-space internet
 
 tray-position = right
 tray-padding = 2
@@ -76,11 +76,9 @@ label-empty =
 label-empty-foreground = ${colors.shade-1}
 label-empty-padding = 2
 
-[module/margin]
+[module/empty-space]
 type = custom/text
-
-content = %{T2}%{T-}
-content-foreground = ${colors.trans}
+content = "  "
 
 [module/nettraf]
 type = custom/script
