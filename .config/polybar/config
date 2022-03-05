@@ -43,7 +43,7 @@ font-5 = "Source Han Sans CN:size=9;2"
 font-6 = "Noto Color Emoji:pixelsize=16:style=Regular:scale=10;2"
 
 modules-left = bspwm
-modules-right = nettraf margin volume margin clock
+modules-right = nettraf margin volume margin clock margin internet
 
 tray-position = right
 tray-padding = 2
@@ -98,4 +98,16 @@ format = <label>
 type = custom/script
 interval = 1
 exec = clock
+format = <label>
+
+[module/internet]
+type = custom/script
+interval = 1
+exec = internet
+format = <label>
+
+[module/forecast]
+type = custom/script
+interval = 1
+exec = forecast
 format = <label>
