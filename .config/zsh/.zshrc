@@ -75,8 +75,3 @@ source "$XDG_CONFIG_HOME/shell/aliasrc"
 source $HOME/dl/gitthings/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 cat ~/.cache/wal/sequences
-
-# wal-tile() {
- #   wal -n -i "$@"
- #  feh --bg-tile "$(< "${HOME}/.cache/wal/wal")"
-# }
