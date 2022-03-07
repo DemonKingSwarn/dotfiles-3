@@ -11,14 +11,13 @@ setxkbmap -option ctrl:nocaps
 sxhkd &
 
 # system
-nm-applet &
 flameshot &
 xss-lock -l $HOME/.scripts/lock.sh &
 
 # rice
 picom --experimental-backends -f -b &
 dunst &
-$HOME/.scripts/setbg/setbg &
+$HOME/.scripts/setbg/set_wallpaper &
 $HOME/.config/polybar/launch.sh &
 bspswallow &
 

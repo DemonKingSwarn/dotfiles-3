@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# https://github.com/pystardust/waldl
+# inspired from https://github.com/pystardust/waldl
 # script to find and download wallpapers from wallhaven
 version="0.0.1"
 
@@ -47,7 +47,7 @@ sh_menu () {
 
 [ -n "$*" ] && query="$*" || query=$( sh_menu )
 [ -z "$query" ] && exit 1
-query=$(printf '%s' "$query" | tr ' ' '+' )
+query=$(printf '%s' "$query" | sed 's/ /+/g' )
 
 ######################
 ## start up commands #
@@ -157,4 +157,4 @@ do
 done | curl -K -
 
 sh_info "wallpapers downloaded in:- '$walldir'"
-sxiv $(ls -c)
+nsxiv $(ls -c)

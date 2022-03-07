@@ -1,0 +1,41 @@
+#!/bin/sh
+
+echo """
+             ______________________
+_______________  /___  __/__  /__(_)___  __
+__  __ \  __ \  __/_  /_ __  /__  /__  |/_/
+_  / / / /_/ / /_ _  __/ _  / _  / __>  <
+/_/ /_/\____/\__/ /_/    /_/  /_/  /_/|_| (osx)
+---
+"""
+
+# Format Query
+
+search() {
+	query=$(echo " " | dmenu -p "Search Torrent: " | tr ' ' '+')
+	echo "Searching YTS for: $query"
+	url
+}
+
+# Search YTS for movie
+url() {
+	movie=$(curl -s https://yts.mx/browse-movies/${query}/all/all/0/downloads/0/all | grep -Eo "https://yts.mx/movies/[a-zA-Z0-9?%-]*" | head -n 1)
+	echo "Found: $movie"
+	magnet_link
+}
+
+# Search for 1080p Magnet link
+magnet_link() {
+	magnets=$(curl -s ${movie} | grep -Eo "<a .* 1080p .*\/a>" | head -n 2)
+	echo "Looking for 1080p link..."
+
+	# Grab magnet link and play
+	magnet=$(echo $magnets | grep -Eo "magnet:\?xt=urn:btih:[a-zA-Z0-9]*" | head -n 1)
+	play
+}
+
+play() {
+	peerflix -l -v ${magnet} --connections 500
+}
+
+search
