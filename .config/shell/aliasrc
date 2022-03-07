@@ -1,10 +1,10 @@
 #!/bin/zsh
 
-alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dots="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias ..='cd ..'
 alias hst='nvim ~/.histfile'
 alias ls='ls --color=auto'
-alias ytdl='youtube-dl -f 137+140'
+alias zrc="nvim $HOME/.config/zsh/.zshrc"
 
 # Confirmations
 alias mv='mv -i'
