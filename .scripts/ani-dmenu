@@ -5,7 +5,7 @@
 # except the coreutils, mpv are dependencies
 
 # setting the url cause i'm impatient and can't wait for 2 fucking seconds to get the working url. if urls changes run the recache url function. i'm too lazy
-base_url=$(curl -s -L -o /dev/null -w "%{url_effective}\n" https://gogoanime.cm)
+base_url="https://gogoanime.fi/"
 
 # history file
 logfile="$HOME/.cache/ani-hsts"
@@ -79,24 +79,26 @@ get_dpage_link() {
 		anime_page=$(curl -s "$base_url/$anime_id-episode-$ep_no")
 	fi
 
-	printf '%s' "$anime_page" |
-	    sed -n -E 's/^[[:space:]]*<a href="#" rel="100" data-video="([^"]*)".*/\1/p' |
-	    sed 's/^/https:/g'
+	printf '%s' "$anime_page" | sed -n -E 's/.*class="active" rel="1" data-video="([^"]*)".*/\1/p' | sed 's/^/https:/g'
 }
 
 # beautifully stolen from https://github.com/pystardust/ani-cli
 decrypt_link() {
-    ajax_url='https://gogoplay.io/encrypt-ajax.php'
+	secret_key='3235373136353338353232393338333936313634363632323738383333323838'
+	iv='31323835363732393835323338333933'
+	ajax_url="https://gogoplay4.com/encrypt-ajax.php"
+	crypto_data=$(curl -s "$1" | sed -nE 's/.*data-value="([^"]*)".*/\1/p')
+	id=$(printf '%s' "$crypto_data" | base64 -d | openssl enc -d -aes256 -K "$secret_key" -iv "$iv" | cut -d '&' -f1)
 
-    video_id=$(printf '%s' "$1" | cut -d\? -f2 | cut -d\& -f1 | sed 's/id=//g')
-    
-    secret_key='3235373436353338353932393338333936373634363632383739383333323838'
-    iv='34323036393133333738303038313335'
-    ajax=$(printf '%s' "$video_id" | openssl enc -aes256  -K "$secret_key" -iv "$iv" -a)
-    
-	curl -s -H 'x-requested-with:XMLHttpRequest' "$ajax_url" -d "id=$ajax" -d "time=69420691337800813569" |
-		sed -e 's/\].*/\]/' -e 's/\\//g' |
-		grep -Eo 'https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)' 
+	#encrypt and create the final ajax
+	ajax=$(printf "%s\010\016\003\010\t\003\004\t" "$id" | openssl enc -aes256 -K "$secret_key" -iv "$iv" -a)
+
+	#send request and get the data(most lamest way)
+	data=$(curl -s -H "X-Requested-With:XMLHttpRequest" "$ajax_url" -d "id=$ajax" | sed -e 's/{"data":"//' -e 's/"}/\n/' -e 's/\\//g')
+	
+	#decrypt the data to get final links
+	printf '%s' "$data" | base64 -d | openssl enc -d -aes256 -K "$secret_key" -iv "$iv" | sed -e 's/\].*/\]/' -e 's/\\//g' |
+		grep -Eo 'https:\/\/[-a-zA-Z0-9@:%._\+~#=][a-zA-Z0-9][-a-zA-Z0-9@:%_\+.~#?&\/\/=]*'
 }
 
 # to run after the exiting mpv
