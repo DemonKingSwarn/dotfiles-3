@@ -12,3 +12,4 @@
 ../playvideo
 ../imagesaver
 ../invidious_copy
+../waldl
