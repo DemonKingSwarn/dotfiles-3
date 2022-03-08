@@ -37,3 +37,5 @@ bspc config window_gap 10
 bspc rule -a mpv state=fullscreen
 bspc rule -a Zathura state=tiled
 bspc rule -a Emacs state=tiled
+bspc rule -a Thunar state=floating
+bspc rule -a Pavucontrol state=floating
