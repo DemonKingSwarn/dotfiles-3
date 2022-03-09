@@ -109,3 +109,9 @@ type = custom/script
 interval = 1
 exec = forecast
 format = <label>
+
+[module/kbselect]
+type = custom/script
+interval = 1
+exec = kbselect
+format = <label>
