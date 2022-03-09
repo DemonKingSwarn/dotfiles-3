@@ -5,6 +5,9 @@ alias ..='cd ..'
 alias hst='nvim ~/.histfile'
 alias ls='ls --color=auto'
 alias zrc="nvim $HOME/.config/zsh/.zshrc"
+alias ga='git add'
+alias gc='git commit -m'
+alias push='git push'
 
 # Confirmations
 alias mv='mv -i'

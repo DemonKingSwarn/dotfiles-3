@@ -1,0 +1,117 @@
+17:49:51.997: CPU Name: Intel(R) Core(TM) i3-2330M CPU @ 2.20GHz
+17:49:51.997: CPU Speed: 1278.472MHz
+17:49:51.998: Physical Cores: 2, Logical Cores: 4
+17:49:51.998: Physical Memory: 2821MB Total, 179MB Free
+17:49:51.998: Kernel Version: Linux 5.16.10-arch1-1
+17:49:52.011: Distribution: "Arch Linux" Unknown
+17:49:52.011: Session Type: tty
+17:49:52.011: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+17:49:52.013: Qt Version: 5.15.2 (runtime), 5.15.2 (compiled)
+17:49:52.013: Portable mode: false
+17:49:52.128: OBS 27.2.1-1 (linux)
+17:49:52.128: ---------------------------------
+17:49:52.129: ---------------------------------
+17:49:52.129: audio settings reset:
+17:49:52.129: 	samples per sec: 48000
+17:49:52.129: 	speakers:        2
+17:49:52.169: ---------------------------------
+17:49:52.170: Initializing OpenGL...
+17:49:52.546: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) HD Graphics 3000 (SNB GT2)
+17:49:52.546: OpenGL loaded successfully, version 3.3 (Core Profile) Mesa 21.3.7, shading language 3.30
+17:49:53.341: ---------------------------------
+17:49:53.341: video settings reset:
+17:49:53.341: 	base resolution:   1366x768
+17:49:53.341: 	output resolution: 1092x614
+17:49:53.341: 	downscale filter:  Bicubic
+17:49:53.341: 	fps:               30/1
+17:49:53.341: 	format:            NV12
+17:49:53.341: 	YUV mode:          709/Partial
+17:49:53.341: NV12 texture support not available
+17:49:53.348: Audio monitoring device:
+17:49:53.348: 	name: Default
+17:49:53.348: 	id: default
+17:49:53.348: ---------------------------------
+17:49:53.372: Failed to load 'en-US' text for module: 'decklink-captions.so'
+17:49:53.389: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+17:49:53.722: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+17:49:53.722: No blackmagic support
+17:49:53.868: v4l2loopback not installed, virtual camera disabled
+17:49:54.267: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+17:49:54.267: 
+17:49:54.267: FFMPEG VAAPI supported
+17:49:54.417: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+17:49:54.417: 
+17:49:54.417: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+17:49:54.420: ---------------------------------
+17:49:54.420:   Loaded Modules:
+17:49:54.420:     text-freetype2.so
+17:49:54.420:     rtmp-services.so
+17:49:54.420:     obs-x264.so
+17:49:54.420:     obs-transitions.so
+17:49:54.420:     obs-outputs.so
+17:49:54.420:     obs-libfdk.so
+17:49:54.420:     obs-filters.so
+17:49:54.420:     obs-ffmpeg.so
+17:49:54.420:     linux-v4l2.so
+17:49:54.420:     linux-pulseaudio.so
+17:49:54.420:     linux-jack.so
+17:49:54.420:     linux-decklink.so
+17:49:54.420:     linux-capture.so
+17:49:54.420:     linux-alsa.so
+17:49:54.420:     image-source.so
+17:49:54.420:     frontend-tools.so
+17:49:54.420:     decklink-ouput-ui.so
+17:49:54.420:     decklink-captions.so
+17:49:54.420: ---------------------------------
+17:49:54.420: ==== Startup complete ===============================================
+17:49:54.497: All scene data cleared
+17:49:54.497: ------------------------------------------------
+17:49:54.503: pulse-input: Server name: 'pulseaudio 15.0'
+17:49:54.503: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+17:49:54.503: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+17:49:54.503: [Loaded global audio device]: 'Desktop Audio'
+17:49:54.503: pulse-input: Server name: 'pulseaudio 15.0'
+17:49:54.504: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+17:49:54.504: pulse-input: Started recording from 'rnnoise_denoised'
+17:49:54.504: [Loaded global audio device]: 'Mic/Aux'
+17:49:54.504: xshm-input: Geometry 1366x768 @ 0,0
+17:49:54.512: Switched to scene 'Scene'
+17:49:54.513: ------------------------------------------------
+17:49:54.513: Loaded scenes:
+17:49:54.513: - scene 'Scene':
+17:49:54.513:     - source: 'Screen Capture (XSHM)' (xshm_input)
+17:49:54.513: ------------------------------------------------
+17:49:55.042: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+17:49:55.042: 
+17:50:08.767: ---------------------------------
+17:50:08.767: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+17:50:08.767: [x264 encoder: 'simple_h264_stream'] settings:
+17:50:08.767: 	rate_control: CBR
+17:50:08.767: 	bitrate:      2500
+17:50:08.767: 	buffer size:  2500
+17:50:08.767: 	crf:          23
+17:50:08.767: 	fps_num:      30
+17:50:08.767: 	fps_den:      1
+17:50:08.767: 	width:        1092
+17:50:08.767: 	height:       614
+17:50:08.767: 	keyint:       250
+17:50:08.767: 
+17:50:08.780: libfdk_aac encoder created
+17:50:08.781: libfdk_aac bitrate: 160, channels: 2
+17:50:08.784: ==== Recording Start ===============================================
+17:50:08.784: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/demonkingswarn/2022-03-08 17-50-08.mkv'...
+17:50:32.020: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/demonkingswarn/2022-03-08 17-50-08.mkv' stopped
+17:50:32.020: Output 'simple_file_output': stopping
+17:50:32.020: Output 'simple_file_output': Total frames output: 673
+17:50:32.020: Output 'simple_file_output': Total drawn frames: 696 (697 attempted)
+17:50:32.020: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 1 (0.1%)
+17:50:32.020: ==== Recording Stop ================================================
+17:50:32.035: libfdk_aac encoder destroyed
+17:59:49.967: Failed to fetch parent window geometry!
+17:59:50.019: Failed to fetch parent window geometry!
+17:59:50.020: Failed to fetch parent window geometry!
+17:59:50.020: Failed to fetch parent window geometry!
+17:59:50.025: Failed to fetch parent window geometry!
+17:59:50.025: Failed to fetch parent window geometry!
+17:59:50.026: Failed to fetch parent window geometry!
+17:59:50.026: Failed to fetch parent window geometry!

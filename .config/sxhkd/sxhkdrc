@@ -10,7 +10,7 @@ super + Print
 	flameshot gui
 
 F12
-	flameshot full -d 1000 -p $HOME/pix/screenshots/ -c
+	maim | tee ~/pix/showcase/$(date +%s).jpg | xclip -sel c -t image/jpg
 
 super + d
 	rofi -show run
