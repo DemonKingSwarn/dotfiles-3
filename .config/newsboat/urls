@@ -1,14 +1,6 @@
-http://localhost:3000/feed/private?token=1e6FNNEpz6zD3KSa0Ahk2rRTNLkDAnnuBGLWcoawtuM=
-https://www.reddit.com/r/unixporn.rss
-https://www.reddit.com/r/archlinux.rss
-https://www.reddit.com/r/nikhilmalankar.rss
-https://www.reddit.com/r/SaimanSays.rss
-https://www.reddit.com/r/PewdiepieSubmissions.rss
-https://www.reddit.com/r/discordapp.rss
-https://www.reddit.com/r/hermitcraft.rss
-https://www.reddit.com/r/linuxmemes.rss
-https://www.reddit.com/r/programmerhumor.rss
-https://www.reddit.com/r/minecraft.rss
+http://localhost:3000/feed/private?token=1e6FNNEpz6zD3KSa0Ahk2rRTNLkDAnnuBGLWcoawtuM= "Invidious"
 https://kumi.tube/feeds/videos.xml?videoChannelId=1464
 https://kumi.tube/feeds/videos.xml?videoChannelId=1404
 https://videos.lukesmith.xyz/feeds/videos.xml?sort=-publishedAt
+https://artixlinux.org/feed.php "tech"
+https://www.archlinux.org/feeds/news/ "tech"
