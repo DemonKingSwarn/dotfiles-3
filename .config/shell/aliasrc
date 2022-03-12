@@ -20,6 +20,7 @@ alias n="$EDITOR"
 alias c='clear'
 alias xcc='xclip -selection clipboard'
 alias xco='xclip -selection clipboard -o'
+alias sudo='doas'
 
 # Package Management
 alias install="paru -S --noconfirm"
