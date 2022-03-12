@@ -3,3 +3,13 @@
 [16-02-22-20_39_31] 	http://ix.io/3PL1 	/home/demonkingswarn/.scripts/set_wallpaper
 [16-02-22-21_21_36] 	http://ix.io/3PKY 	/home/demonkingswarn/.scripts/share
 [17-02-22-16_03_41] 	http://ix.io/3PPw 	/home/demonkingswarn/.scripts/custom_emoji/subscripts/run
+[25-02-22-17_44_54] 	http://ix.io/3QHb 	/home/demonkingswarn/.scripts/fufetch
+[26-02-22-13_47_12] 	 	
+[26-02-22-16_11_29] 	http://ix.io/3QNg 	/home/demonkingswarn/.scripts/recordscreen
+[26-02-22-20_09_53] 	 	/home/demonkingswarn/.scripts/doasedit.sh
+[26-02-22-20_10_53] 	http://ix.io/3QOB 	/home/demonkingswarn/.scripts/doasedit.sh
+[06-03-22-14_33_57] 	http://ix.io/3RtQ 	/home/demonkingswarn/.scripts/waldl
+[10-03-22-19_47_47] 	http://ix.io/3RRJ 	/home/demonkingswarn/.scripts/setbg/set_wallpaper
+[10-03-22-19_47_58] 	http://ix.io/3PL1 	/home/demonkingswarn/.scripts/setbg/set_wallpaper.old
+[10-03-22-21_56_56] 	http://ix.io/3RSt 	/home/demonkingswarn/.scripts/ani-dmenu
+[10-03-22-22_00_38] 	http://ix.io/3PXh 	/home/demonkingswarn/.scripts/radio
