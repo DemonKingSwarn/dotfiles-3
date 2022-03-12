@@ -1,3 +1,5 @@
+yt|ytplayer|file
+noti|notify|around
 down|download_dir|around
 Opt|Options|around
 O|Options|around

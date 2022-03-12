@@ -8,6 +8,7 @@ export EDITOR="nvim"
 export TERMINAL="kitty"
 export BROWSER="firefox"
 export XINITRC="$HOME/.config/X11/xinitrc"
+alias dots="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"

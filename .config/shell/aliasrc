@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-alias dots="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+#alias dots="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias ..='cd ..'
 alias hst='nvim ~/.histfile'
 alias ls='ls --color=auto'

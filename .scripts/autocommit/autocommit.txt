@@ -1,2 +1,2 @@
-./.password-store/
-./Pictures/ScreenShots/
+~/dox/code/ytplayer/
+~/.emacs.d/
