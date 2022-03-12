@@ -1,5 +1,5 @@
 #!/bin/sh
 
-file="$HOME/pix/permanent-wall/cosmic-girl.jpg"
+file="$HOME/pix/wall/47.jpg"
  feh --bg-fill "$file"
  wal -i "$file"
