@@ -1,9 +1,9 @@
 *
-!.config
-!.scripts
-!.local/bin/statusbar
-!.local/share/fonts
-!pix/wall
+!.config/*
+!.scripts/*
+!.local/bin/statusbar/*
+!.local/share/fonts/*
+!pix/wall/*
 !.Xmodmap
 !.gitconfig
 !.gtkrc-2.0
@@ -11,7 +11,7 @@
 !.zshrc
 !README.org
 !.gitignore
-!dox/0x0
-!dox/ebooks
-!dox/licenses
+!dox/0x0/*
+!dox/ebooks/*
+!dox/licenses/*
 !.emacs.d
