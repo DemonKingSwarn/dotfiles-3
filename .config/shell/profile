@@ -5,7 +5,7 @@ if [[ "$(tty)" = "/dev/tty1" ]]; then
 fi
 
 export EDITOR="nvim"
-export TERMINAL="kitty"
+export TERMINAL="st"
 export BROWSER="firefox"
 export XINITRC="$HOME/.config/X11/xinitrc"
 
@@ -13,4 +13,5 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
 
-export PATH=/home/demonkingswarn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/demonkingswarn/.cargo/bin:/home/demonkingswarn/.local/bin/statusbar:/var/lib/flatpak/exports/share:/home/demonkingswarn/.local/share/flatpak/exports/share
+export PATH=/home/demonkingswarn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/demonkingswarn/.cargo/bin:/home/demonkingswarn/.local/bin/statusbar
+
