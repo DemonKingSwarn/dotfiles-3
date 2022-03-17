@@ -6,10 +6,10 @@ version="0.0.1"
 
 # Usage:
 # 	waldl <query>
-# if query left empty then sh_menu will be used (dmenu by default)
-# after the thumbnails are cached, sxiv would open up with the thumbnails
-# Select the wallpapers using `m` on the image. ( marking the image in sxiv )
-# press `q` to quit sxiv, the marked images would start downloading
+# if query left empty then sh_menu will be used (rofi by default)
+# after the thumbnails are cached, nsxiv would open up with the thumbnails
+# Select the wallpapers using `m` on the image. ( marking the image in nsxiv )
+# press `q` to quit nsxiv, the marked images would start downloading
 
 ####################
 ## User variables ##
@@ -36,9 +36,9 @@ atleast=1920x1080
 
 # the menu command used when no query is provided
 sh_menu () {
-	: | dmenu -p "search wallhaven:"
+	#: | dmenu -p "search wallhaven:"
 	# ROFI: comment the previous line and uncomment the next line for rofi
-	# rofi -dmenu -l 0 -p "search wallpapers"
+	rofi -dmenu -l 0 -p "search wallpapers"
 }
 
 ##########################

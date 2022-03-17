@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-file=$(find $HOME/vids/musics -iname '*.mp3' | dmenu -i -l 20)
-mpv $file
+basedir="$HOME/musics"
+file=$(ls -l $HOME/musics | sed -n '1!p' |  awk '{print $9}' | dmenu -i -l 5)
+music="$basedir/$file"
+mpv "$music"

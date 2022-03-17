@@ -13,3 +13,4 @@
 ../imagesaver
 ../invidious_copy
 ../waldl
+../shutdownscript
