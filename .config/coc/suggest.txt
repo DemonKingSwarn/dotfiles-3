@@ -1,3 +1,14 @@
+inter|internet|around
+vol|volume|around
+emp|empty|around
+stat|statusbar|around
+de|demonkingswarn|around
+upda|update_nettraf|around
+nett|nettraf|around
+nett|nettraf|file
+stat|statusbar|file
+upda|update_vol|around
+up|update_weather|around
 app|applications|file
 musi|musics|file
 cord|cord|around
@@ -85,7 +96,6 @@ pize|pixelsize|around
 dt|dt|file
 moo|moonphase|around
 moonphase|moonphase|around
-emp|empty|around
 wal|waldl|file
 base|base_url|around
 novel|novel_id|around

@@ -37,10 +37,7 @@ foreground = ${colors.fg}
 font-0 = "JetBrains Mono Nerd Font:style=Medium:size=10;2"
 font-1 = "JetBrains Mono Nerd Font:style=Bold:size=10;2"
 font-2 = "JetBrainsMono Nerd Font:size=19;5"
-font-3 = "Material Icons Outlined:9;4"
-font-4 = "Material Icons Round:9;4"
-font-5 = "Source Han Sans CN:size=9;2"
-font-6 = "Noto Color Emoji:pixelsize=16:style=Regular:scale=10;2"
+font-3 = "Noto Color Emoji:pixelsize=16:style=Regular:scale=10;2"
 
 modules-left = bspwm
 modules-right = nettraf empty-space volume empty-space clock empty-space internet
@@ -104,10 +101,10 @@ interval = 1
 exec = internet
 format = <label>
 
-[module/forecast]
+[module/dbar]
 type = custom/script
 interval = 1
-exec = forecast
+exec = dbar
 format = <label>
 
 [module/kbselect]
