@@ -13,7 +13,6 @@ sxhkd &
 # system
 flameshot &
 xss-lock -l $HOME/.scripts/lock.sh &
-mpd &
 
 # rice
 picom --experimental-backends -f -b &
