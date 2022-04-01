@@ -8,19 +8,20 @@ alias zrc="nvim $HOME/.config/zsh/.zshrc"
 alias ga='git add'
 alias gc='git commit -m'
 alias push='git push'
+alias neofetch='neofetch --source ~/.config/neofetch/neofetch.txt'
 
 # Confirmations
 alias mv='mv -i'
 alias rm='rm -i'
 alias ln='ln -i'
 alias cp='cp -i'
+alias shred='shred -f -u -z -v -n 3'
 
 # QoL
 alias n="$EDITOR"
 alias c='clear'
 alias xcc='xclip -selection clipboard'
 alias xco='xclip -selection clipboard -o'
-alias sudo='doas'
 
 # Package Management
 alias install="paru -S --noconfirm"
