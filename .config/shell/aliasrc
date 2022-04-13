@@ -11,10 +11,10 @@ alias push='git push'
 alias neofetch='neofetch --source ~/.config/neofetch/neofetch.txt'
 
 # Confirmations
-alias mv='mv -i'
+alias mv='mvg -ig'
 alias rm='rm -i'
 alias ln='ln -i'
-alias cp='cp -i'
+alias cp='cpg -ig'
 alias shred='shred -f -u -z -v -n 3'
 
 # QoL
