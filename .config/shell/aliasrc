@@ -11,6 +11,7 @@ alias push='git push'
 alias neofetch='neofetch --source ~/.config/neofetch/neofetch.txt'
 alias cat="bat --paging=never"
 alias less="bat --paging=always"
+alias man="$HOME/.local/bin/man"
 
 # Confirmations
 alias mv='mvg -ig'
