@@ -39,3 +39,4 @@ bspc rule -a Emacs state=tiled
 bspc rule -a Thunar state=floating follow=off focus=off desktop=3
 bspc rule -a Pavucontrol state=floating
 bspc rule -a St desktop=2
+bspc rule -a firefox desktop=1
