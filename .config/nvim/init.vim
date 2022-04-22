@@ -22,6 +22,7 @@ endif
 call plug#begin(expand('~/.vim/plugged'))
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'andweeb/presence.nvim'
 call plug#end()
 
 
