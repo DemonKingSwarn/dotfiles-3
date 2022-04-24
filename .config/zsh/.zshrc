@@ -72,15 +72,5 @@ bindkey '^e' edit-command-line
 
 source "$HOME/.config/shell/profile"
 source "$XDG_CONFIG_HOME/shell/aliasrc"
-source $HOME/dl/gitthings/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 cat ~/.cache/wal/sequences
-
-echo "
-  __            _                     _      _         
- / _|_   _  ___| | __  ___  ___   ___(_) ___| |_ _   _ 
-| |_| | | |/ __| |/ / / __|/ _ \ / __| |/ _ \ __| | | |
-|  _| |_| | (__|   <  \__ \ (_) | (__| |  __/ |_| |_| |
-|_|  \__,_|\___|_|\_\ |___/\___/ \___|_|\___|\__|\__, |
-                                                 |___/ 
-"
