@@ -2,7 +2,7 @@
 
 ** What Are Dotfiles?
 
-[[./screenshot_1650794523.png]]
+[[https://github.com/DemonKingSwarn/dotfiles-3/raw/main/screenshot_1650794523.png]]
 
 Dotfiles are the customization files that are used to personalize your Linux or other Unix-based System. You can tell that a file is
 a dotfile because the name of the file will begin with a period-a dot! The period at the beginning of the filename or directory name
