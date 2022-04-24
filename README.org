@@ -34,7 +34,7 @@ There are a hundred ways to manage your dotfiles. Personally, I use the git bare
 
 Other articles discussing dotfile management are listed below:
 
-- [[There are a hundred ways to manage your dotfiles. Personally, I use the git bare repository method for managing my dotfiles. Here is an article about this method of managing your dotfiles: https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/][Managing dotfiles with style with rcm]] (Ronnie Nissan)
+- [[https://distrotube.com/guest-articles/managing-dotfiles-with-rcm.html][Managing dotfiles with style with rcm]] (Ronnie Nissan)
 - [[https://distrotube.com/guest-articles/interactive-dotfile-management-dotbare.html][Interactive dotfile management with dotbare]] (Kevin Zhuang)
 
 ** License
