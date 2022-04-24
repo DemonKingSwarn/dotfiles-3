@@ -1,7 +1,42 @@
-* dotfiles-3
-  These are my dotfiles, intended to be installable.
+* Demon's Dotfiles
 
-* Caveats
-  - Some directories are symlinks to another repository like =.emacs.d= is the symlink for [[https://github.com/demonkingswarn/.emacs.d][.emacs.d]], so make sure to check for them.
-  - Many of the scripts under =~/.scripts= require =readline= with =-f= available, which is not necessarily available on *BSD/Plan9/MacOS/Alpine.
-    This is used to set =SCRIPT_DIR=, which allows scripts to be called from anywhere, as symlinks or otherwise, while retaining functionality.  
+** What Are Dotfiles?
+
+[[./screenshot_1650794523.png]]
+
+Dotfiles are the customization files that are used to personalize your Linux or other Unix-based System. You can tell that a file is
+a dotfile because the name of the file will begin with a period-a dot! The period at the beginning of the filename or directory name
+indicates that it is a hidden file or directory. This repository contains my personal dotfiles. They are stored here for convenience
+so that i may quickly access them on new machines or new installs. Also, others may find some of my configuration helpful in
+customizing their own dotfiles.
+
+** My Window Manager Configs
+
+- [[https://github.com/DemonKingSwarn/dotfiles-3/tree/main/.config/bspwm][bspwm]]
+- [[https://github.com/DemonKingSwarn/dotfiles-3/tree/main/.config/i3][i3-gaps]]
+
+** Other Popular Configs Of Mine
+
+- [[https://github.com/DemonKingSwarn/dotfiles-3/tree/main/.config/alacritty][Alacritty]]
+- [[https://github.com/demonkingswarn/dmenu][Dmenu]] (*)
+- [[https://github.com/demonkingswarn/.emacs.d][Emacs]] (*)
+- [[https://github.com/demonkingswarn/myst][St]] (*)
+- [[https://github.com/DemonKingSwarn/dotfiles-3/tree/main/.config/nvim][Neovim]]
+- [[https://github.com/DemonKingSwarn/dotfiles-3/tree/main/.config/sxhkd][Sxhkd]]
+- [[https://github.com/demonkingswarn/wallpapers][Wallpapers]] (*)
+- [[https://github.com/demonkingswarn/scripts][Scripts]] (*)
+
+(*) = links to another repository of mine
+
+** How To Manage Your Own Dotfiles
+
+There are a hundred ways to manage your dotfiles. Personally, I use the git bare repository method for managing my dotfiles. Here is an article about this method of managing your dotfiles: https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
+
+Other articles discussing dotfile management are listed below:
+
+- [[There are a hundred ways to manage your dotfiles. Personally, I use the git bare repository method for managing my dotfiles. Here is an article about this method of managing your dotfiles: https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/][Managing dotfiles with style with rcm]] (Ronnie Nissan)
+- [[https://distrotube.com/guest-articles/interactive-dotfile-management-dotbare.html][Interactive dotfile management with dotbare]] (Kevin Zhuang)
+
+** License
+
+The files and scripts in this repository are licensed under the MIT License, which is a very permissive license allowing you to use, modify, copy, distribute, sell, give away, etc. the software. In other words, do what you want with it. The only requirement with the MIT License is that the license and copyright notice must be provided with the software.
