@@ -4,7 +4,7 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 Print
-	flameshot full -p ~/pix/screenshots/ -c
+	$HOME/.scripts/misc/scrotss
 
 super + Print
 	flameshot gui
@@ -13,7 +13,7 @@ super + d
 	rofi -show run
 
 alt + d
-	dmenu_run
+	dmenu_run -l 10
 
 super + Return
 	st
@@ -28,7 +28,7 @@ super + s
 	$HOME/.scripts/scripts_menu/scripts_menu.sh
 
 super + p
-	$HOME/.scripts/passmenu
+	$HOME/.scripts/misc/passmenu
 
 super + f
 	rofi -show file-browser-extended -show-icons -file-browser-hide-parent
@@ -43,7 +43,7 @@ XF86AudioMute
 	pamixer -t
 
 super + shift + x
-	~/.scripts/lock.sh
+	~/.scripts/system/lock.sh
 
 super + alt + {q,r}
 	bspc {quit,wm -r}

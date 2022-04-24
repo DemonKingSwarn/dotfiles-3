@@ -3,7 +3,7 @@
 alias dots="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias ..='cd ..'
 alias hst='nvim ~/.histfile'
-alias ls='ls --color=auto'
+alias ls='exa -l --icons'
 alias zrc="nvim $HOME/.config/zsh/.zshrc"
 alias ga='git add'
 alias gc='git commit -m'
@@ -11,7 +11,7 @@ alias push='git push'
 alias neofetch='neofetch --source ~/.config/neofetch/neofetch.txt'
 alias cat="bat --paging=never"
 alias less="bat --paging=always"
-alias man="$HOME/.local/bin/man"
+alias x='exit'
 
 # Confirmations
 alias mv='mvg -ig'
@@ -30,3 +30,4 @@ alias xco='xclip -selection clipboard -o'
 alias install="paru -S --noconfirm"
 alias uninstall="paru -R --noconfirm"
 alias update="paru -Syu --noconfirm"
+alias garbage="paru -Rs $(paru -Qqtd)"
