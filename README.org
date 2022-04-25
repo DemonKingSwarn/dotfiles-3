@@ -36,6 +36,10 @@ customizing their own dotfiles.
 
 (*) = links to another repository of mine
 
+** How Can You Try My Own Dotfiles
+
+It's easy as managing your own dotfiles because I have this [[https://github.com/DemonKingSwarn/scripts/blob/main/misc/demonos][script]] which automates the deployment process of my dotfiles.
+
 ** How To Manage Your Own Dotfiles
 
 There are a hundred ways to manage your dotfiles. Personally, I use the git bare repository method for managing my dotfiles. Here is an article about this method of managing your dotfiles: https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
