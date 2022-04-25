@@ -5,6 +5,7 @@
 - [[https://github.com/DemonKingSwarn/dotfiles-3#what-are-dotfiles][What Are Dotfiles?]]
 - [[https://github.com/DemonKingSwarn/dotfiles-3#my-window-manager-configs][My Window Manager Configs]]
 - [[https://github.com/DemonKingSwarn/dotfiles-3#other-popular-configs-of-mine][Other Popular Configs Of Mine]]
+- [[https://github.com/DemonKingSwarn/dotfiles-3#how-can-you-try-my-own-dotfiles][How Can You Try My Own Dotfiles]]
 - [[https://github.com/DemonKingSwarn/dotfiles-3#how-to-manage-your-own-dotfiles][How To Manage Your Own Dotfiles]]
 - [[https://github.com/DemonKingSwarn/dotfiles-3#license][License]]
 
