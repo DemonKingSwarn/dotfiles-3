@@ -1,0 +1,70 @@
+#!/bin/sh
+
+get_mem() {
+	while IFS=':k '  read -r key val _; do
+		case $key in
+			MemTotal)
+				mem_used=$((mem_used + val))
+				mem_full=$val
+				;;
+			Shmem)
+				mem_used=$((mem_used + val))
+				;;
+			MemFree|Buffers|Cached|SReclaimable)
+				mem_used=$((mem_used - val))
+				;;
+		esac
+	done < /proc/meminfo
+	mem_used=$((mem_used / 1024)) 
+	mem_full=$((mem_full / 1024))
+	RAM="${mem_used}/${mem_full} MB ($(( mem_used * 100 / mem_full ))%)"
+}
+
+get_uptime() {
+	IFS=. read -r secs _ < /proc/uptime
+	days="$((secs / 60 / 60 / 24))"
+	hours="$((secs / 60 / 60 % 24))"
+	mins="$((secs / 60 % 60))"
+	[ "$days" != "0" ] && UPTIME="${days}d "
+	[ "$hours" != "0" ] && UPTIME="$UPTIME${hours}h "
+	[ "$mins" != "0" ] && UPTIME="$UPTIME${mins}m"
+}
+get_os_details() {
+	IFS='"' read -r _ DISTRO _ < /etc/os-release
+	IFS=' (' read -r _ _ KERNEL _ < /proc/version
+	read -r HOST < /proc/sys/kernel/hostname
+	MANAGER="pacman"
+	PACKAGES="$(paru -Qn | wc -l)"
+}
+
+get_uptime
+get_mem
+get_os_details
+
+# ansi escape codes
+bold='[1m'
+red='[31m'
+green='[32m'
+yellow='[33m'
+blue='[34m'
+magenta='[35m'
+cyan='[36m'
+grey='[90m'
+reset='[0m'
+
+uc="${reset}${bold}${magenta}"  # user color
+hc="${reset}${bold}${cyan}"     # host color
+lc="${reset}${red}"             # label color
+ic="${reset}${blue}"            # info color
+ac1="${reset}${bold}${yellow}"  # ascii color 1
+ac2="${reset}${bold}${green}"   # ascii color 2
+
+cat <<-EOF
+				${ac1}       /\\       ${uc}${USER}${grey}@${reset}${hc}${HOST}
+				${ac1}      /  \\      ${lc}  ${ic}${DISTRO}
+				${ac1}     /    \\     ${lc}  ${ic}${KERNEL}
+				${ac2}    /      \\    ${lc}  ${ic}${RAM}
+				${ac2}   /   ,,   \\   ${lc}  ${ic}${PACKAGES} (${MANAGER})
+				${ac2}  /   |  |   \\  ${lc}  ${ic}${UPTIME}
+				${ac2} /_-''    ''-_\\ ${lc}  ${red}███${green}███${yellow}███${blue}███${magenta}███${cyan}███${reset}
+EOF
