@@ -39,7 +39,7 @@ customizing their own dotfiles.
 
 ** How Can You Try My Own Dotfiles
 
-It's easy as managing your own dotfiles because I have this [[https://github.com/DemonKingSwarn/scripts/blob/main/misc/demonos][script]] which automates the deployment process of my dotfiles.
+It's easy as managing your own dotfiles because I have this [[https://github.com/DemonKingSwarn/scripts/blob/main/misc/demonos][script]] which automates the deployment process of my dotfiles. Yeah i sarcastically call it "DEMONOS".
 
 ** How To Manage Your Own Dotfiles
 
