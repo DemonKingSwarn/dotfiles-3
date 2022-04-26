@@ -1,3 +1,3 @@
-2022/04/26-14:07:32.218 c35 Reusing MANIFEST /home/demonkingswarn/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2022/04/26-14:07:32.519 c35 Recovering log #81
-2022/04/26-14:07:32.574 c35 Reusing old log /home/demonkingswarn/.config/discord/Local Storage/leveldb/000081.log 
+2022/04/26-16:41:52.059 10e6f Reusing MANIFEST /home/demonkingswarn/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/04/26-16:41:52.060 10e6f Recovering log #81
+2022/04/26-16:41:52.186 10e6f Reusing old log /home/demonkingswarn/.config/discord/Local Storage/leveldb/000081.log 
