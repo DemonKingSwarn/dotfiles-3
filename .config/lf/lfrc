@@ -1,0 +1,56 @@
+set hidden true
+set icons true
+set preview
+set previewer ~/.local/bin/previewer
+set cleaner ~/.local/bin/cleaner
+set shell sh
+set drawbox
+set scrolloff 999
+set ignorecase true
+
+cmd open ${{
+    case $(file --mime-type "$f" -bL) in
+        text/troff) man "$f" 2> /dev/null ;;
+        text/html) brave "$f" 2> /dev/null ;;
+        application/zip) $EDITOR "$f" 2> /dev/null ;;
+        text/*|application/json) $EDITOR "$f" 2> /dev/null ;;
+        image/*) imgopen "$f" "$PWD" 2> /dev/null ;;
+        *) xdg-open "$f" 2> /dev/null ;;
+    esac
+}}
+
+cmd mkdir %printf "Directory Name: " ; read -r ans; mkdir "$ans" && printf "\033[0;32mDirectory created successfully!"
+cmd mkfile %printf "File Name: " ; read -r ans; touch "$ans" && printf "\033[0;32mFile created successfully!"
+
+cmd zip %zip "$(basename "$f")".zip "$(basename "$f")" -r && printf "\033[0;32mCompressed successfully!"
+cmd tgz %tar cf "$(basename "$f")".tgz "$(basename "$f")" && printf "\033[0;32mCompressed successfully!"
+
+cmd extract ${{
+    case $f in
+    *.tar.gz|*.tgz) tar xf "$(basename "$f")" ;;
+    *.zip) unzip "$(basename "$f")" ;;
+    esac
+}}
+
+cmd setwall %xwallpaper --zoom "$f" && notify-send "📁 Lf 📁" "Wallpaper set!"
+
+map X !$f
+map d
+map dd delete
+map p paste
+map y copy
+map x cut
+map r rename
+map c clear
+map n mkfile
+map m mkdir
+map zz zip
+map tz tgz
+map az extract
+map R reload
+map o setwall
+
+map gc cd ~/.config
+map gl cd ~/.local
+map gs cd ~/stuff
+map gt cd /tmp

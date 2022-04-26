@@ -1,0 +1,15 @@
+2022/04/25-22:57:19.913 1960 Reusing MANIFEST /home/demonkingswarn/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/04/25-22:57:20.004 1960 Recovering log #78
+2022/04/25-22:57:20.085 1960 Reusing old log /home/demonkingswarn/.config/discord/Local Storage/leveldb/000078.log 
+2022/04/25-22:59:23.172 1bc8 Level-0 table #82: started
+2022/04/25-22:59:45.877 1bc8 Level-0 table #82: 23370 bytes OK
+2022/04/25-22:59:46.574 1bc8 Delete type=0 #78
+2022/04/25-22:59:46.575 1bc8 Compacting 4@0 + 1@1 files
+2022/04/25-22:59:46.885 1bc8 Generated table #83@0: 116 keys, 466600 bytes
+2022/04/25-22:59:46.885 1bc8 Compacted 4@0 + 1@1 files => 466600 bytes
+2022/04/25-22:59:47.173 1bc8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/25-22:59:47.175 1bc8 Delete type=2 #71
+2022/04/25-22:59:47.175 1bc8 Delete type=2 #74
+2022/04/25-22:59:47.175 1bc8 Delete type=2 #77
+2022/04/25-22:59:47.175 1bc8 Delete type=2 #79
+2022/04/25-22:59:47.175 1bc8 Delete type=2 #82

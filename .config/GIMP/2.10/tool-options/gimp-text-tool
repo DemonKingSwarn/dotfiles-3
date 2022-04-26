@@ -1,0 +1,9 @@
+# GIMP gimp-text-tool options
+
+(foreground (color-rgb 1 0 0))
+(palette "Standard")
+(font "Alien Encounters Solid Ultra-Heavy Italic")
+(font-size 24)
+(justify center)
+
+# end of gimp-text-tool options

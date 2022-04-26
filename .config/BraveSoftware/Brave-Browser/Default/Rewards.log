@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------
+[Apr 22, 2022, 2:30:22.1 PM:ERROR:logging_util.cc(105)] Network error (net::ERR_NAME_NOT_RESOLVED)
+[Apr 22, 2022, 2:30:22.1 PM:ERROR:get_prefix_list.cc(33)] Unexpected HTTP status: -1
+[Apr 22, 2022, 2:30:22.1 PM:ERROR:get_prefix_list.cc(58)] Invalid server response for publisher prefix list
+[Apr 22, 2022, 2:30:22.1 PM:ERROR:publisher_prefix_list_updater.cc(77)] Invalid server response for publisher prefix list
+[Apr 22, 2022, 2:30:22.2 PM:ERROR:logging_util.cc(105)] Network error (net::ERR_NAME_NOT_RESOLVED)
+[Apr 22, 2022, 2:30:22.2 PM:ERROR:get_parameters.cc(53)] Unexpected HTTP status: -1
+[Apr 22, 2022, 2:30:27.1 PM:ERROR:logging_util.cc(105)] Network error (net::ERR_NAME_NOT_RESOLVED)
+[Apr 22, 2022, 2:30:27.1 PM:ERROR:get_available.cc(69)] Unexpected HTTP status: -1
+[Apr 22, 2022, 2:30:58.2 PM:ERROR:logging_util.cc(105)] Network error (net::ERR_NAME_NOT_RESOLVED)
+[Apr 22, 2022, 2:30:58.2 PM:ERROR:get_prefix_list.cc(33)] Unexpected HTTP status: -1
+[Apr 22, 2022, 2:30:58.2 PM:ERROR:get_prefix_list.cc(58)] Invalid server response for publisher prefix list
+[Apr 22, 2022, 2:30:58.2 PM:ERROR:publisher_prefix_list_updater.cc(77)] Invalid server response for publisher prefix list
+[Apr 22, 2022, 2:32:02.5 PM:ERROR:logging_util.cc(105)] Network error (net::ERR_NAME_NOT_RESOLVED)
+[Apr 22, 2022, 2:32:02.5 PM:ERROR:post_wallet_brave.cc(46)] Unexpected HTTP status: -1
+[Apr 22, 2022, 2:32:02.5 PM:ERROR:rewards_service_impl.cc(3451)] Failed to create a wallet
+[Apr 22, 2022, 2:42:49.8 PM:ERROR:bundle.cc(466)] Failed to delete creative ad notifications state
+[Apr 22, 2022, 2:42:49.8 PM:ERROR:bundle.cc(478)] Failed to delete creative inline content ads state
+[Apr 22, 2022, 2:42:49.9 PM:ERROR:bundle.cc(490)] Failed to delete creative new tab page ads state
+[Apr 22, 2022, 2:42:49.9 PM:ERROR:bundle.cc(502)] Failed to delete creative new tab page ad wallpapers state
+[Apr 22, 2022, 2:42:49.9 PM:ERROR:bundle.cc(514)] Failed to delete creative promoted content ads state
+[Apr 22, 2022, 2:42:49.9 PM:ERROR:bundle.cc(526)] Failed to delete campaigns state
+[Apr 22, 2022, 2:42:49.9 PM:ERROR:bundle.cc(538)] Failed to delete segments state
+[Apr 22, 2022, 2:42:49.9 PM:ERROR:bundle.cc(550)] Failed to delete creative ads state
+[Apr 22, 2022, 2:42:49.9 PM:ERROR:bundle.cc(562)] Failed to delete dayparts state
+[Apr 22, 2022, 2:42:49.9 PM:ERROR:bundle.cc(574)] Failed to delete geo targets state
+[Apr 22, 2022, 2:42:49.9 PM:ERROR:bundle.cc(588)] Failed to save creative ad notifications state
+[Apr 22, 2022, 2:42:49.9 PM:ERROR:bundle.cc(602)] Failed to save creative inline content ads state
+[Apr 22, 2022, 2:42:49.9 PM:ERROR:bundle.cc(616)] Failed to save creative new tab page ads state
+[Apr 22, 2022, 2:42:49.9 PM:ERROR:bundle.cc(642)] Failed to purge expired conversions
+[Apr 22, 2022, 2:42:51.9 PM:ERROR:refill_unblinded_tokens.cc(194)] Failed to get signed tokens
+[Apr 22, 2022, 2:49:54.6 PM:ERROR:publisher.cc(774)] Publisher info not found
+[Apr 22, 2022, 3:18:43.1 PM:ERROR:logging_util.cc(105)] Network error (net::ERR_NAME_NOT_RESOLVED)
+[Apr 22, 2022, 3:18:43.1 PM:ERROR:get_available.cc(69)] Unexpected HTTP status: -1
+--------------------------------------------------------------------------------
+[Apr 22, 2022, 3:20:04.0 PM:ERROR:logging_util.cc(105)] Network error (net::ERR_NAME_NOT_RESOLVED)
+[Apr 22, 2022, 3:20:04.0 PM:ERROR:get_parameters.cc(53)] Unexpected HTTP status: -1
+[Apr 22, 2022, 3:20:12.1 PM:ERROR:account.cc(265)] Failed to get issuers
+[Apr 22, 2022, 3:20:57.1 PM:ERROR:account.cc(265)] Failed to get issuers
+[Apr 22, 2022, 3:21:08.1 PM:ERROR:account.cc(265)] Failed to get issuers

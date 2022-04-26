@@ -1,0 +1,81 @@
+[2022-04-26 14:07:38.224] [3423] (engine.cpp:231): Time: Tue Apr 26 14:07:38 2022 IST logLevel:2
+[2022-04-26 14:07:38.225] [3423] (audio_device_impl.cc:83): Create
+[2022-04-26 14:07:38.226] [3423] (audio_device_impl.cc:91): CreateForTest
+[2022-04-26 14:07:38.226] [3423] (audio_device_buffer.cc:64): AudioDeviceBuffer::ctor
+[2022-04-26 14:07:38.226] [3423] (audio_device_impl.cc:129): AudioDeviceModuleImpl
+[2022-04-26 14:07:38.226] [3423] (audio_device_impl.cc:133): CheckPlatform
+[2022-04-26 14:07:38.226] [3423] (audio_device_impl.cc:144): current platform is Linux
+[2022-04-26 14:07:38.226] [3423] (audio_device_impl.cc:163): CreatePlatformSpecificObjects
+[2022-04-26 14:07:38.226] [3423] (audio_device_impl.cc:992): PlatformAudioLayer
+[2022-04-26 14:07:38.226] [3423] (audio_device_impl.cc:299): PulseAudio support is enabled.
+[2022-04-26 14:07:38.226] [3423] (audio_mixer_manager_pulse_linux.cc:57): AudioMixerManagerLinuxPulse created
+[2022-04-26 14:07:38.226] [3423] (audio_device_pulse_linux.cc:81): AudioDeviceLinuxPulse created
+[2022-04-26 14:07:38.226] [3423] (audio_device_impl.cc:304): Linux PulseAudio APIs will be utilized
+[2022-04-26 14:07:38.226] [3423] (audio_device_impl.cc:345): AttachAudioBuffer
+[2022-04-26 14:07:38.226] [3423] (audio_device_buffer.cc:180): SetRecordingSampleRate(0)
+[2022-04-26 14:07:38.226] [3423] (audio_device_buffer.cc:186): SetPlayoutSampleRate(0)
+[2022-04-26 14:07:38.226] [3423] (audio_device_buffer.cc:200): SetRecordingChannels(0)
+[2022-04-26 14:07:38.226] [3423] (audio_device_buffer.cc:206): SetPlayoutChannels(0)
+[2022-04-26 14:07:38.226] [3423] (audio_engine.cpp:46): Creating audio engine: standard
+[2022-04-26 14:07:38.243] [3423] (audio_device_impl.cc:365): Init
+[2022-04-26 14:07:38.323] [3423] (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2022-04-26 14:07:38.324] [3423] (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 1
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2022-04-26 14:07:38.359] [3423] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2022-04-26 14:07:38.360] [3423] (audio_device_impl.cc:896): RegisterAudioCallback
+[2022-04-26 14:07:38.360] [3423] (audio_device_buffer.cc:81): RegisterAudioCallback
+[2022-04-26 14:07:38.722] [3423] (audio_device_impl.cc:355): ActiveAudioLayer
+[2022-04-26 14:07:38.983] [3423] (audio_engine.cpp:143): Setting audio input device: 'default'
+[2022-04-26 14:07:38.984] [3423] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2022-04-26 14:07:38.984] [3423] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2022-04-26 14:07:38.984] [3423] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2022-04-26 14:07:38.984] [3423] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2022-04-26 14:07:38.984] [3423] (audio_mixer_manager_pulse_linux.cc:196): MicrophoneIsInitialized
+[2022-04-26 14:07:38.984] [3423] (audio_device_impl.cc:574): output: 1
+[2022-04-26 14:07:38.985] [3423] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2022-04-26 14:07:38.985] [3423] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2022-04-26 14:07:38.985] [3423] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2022-04-26 14:07:38.985] [3423] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2022-04-26 14:07:38.985] [3423] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2022-04-26 14:07:38.985] [3423] (audio_engine.cpp:154): Setting audio output device: 'default'
+[2022-04-26 14:07:38.985] [3423] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2022-04-26 14:07:38.985] [3423] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2022-04-26 14:07:38.985] [3423] (audio_mixer_manager_pulse_linux.cc:189): SpeakerIsInitialized
+[2022-04-26 14:07:38.985] [3423] (audio_device_impl.cc:620): output: 1
+[2022-04-26 14:07:38.985] [3423] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2022-04-26 14:07:38.985] [3423] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2022-04-26 14:07:38.985] [3423] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2022-04-26 14:07:38.985] [3423] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2022-04-26 14:07:38.985] [3423] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2022-04-26 14:07:38.998] [3327] (discord.cpp:551): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 125580, Version Hash: c086087ffaa3d444172d49bbb8471b1fe7e8fa74"]
+[2022-04-26 14:07:39.156] [3327] (discord.cpp:551): JS console: ["%c[default]","[NATIVE INFO] host 0.0.17, modules: discord_desktop_core: 3, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 5, discord_game_utils: 1, discord_rpc: 1"]
+[2022-04-26 14:07:39.298] [3423] (audio_engine.cpp:143): Setting audio input device: 'default'
+[2022-04-26 14:07:39.298] [3423] (audio_device_impl.cc:827): RecordingIsInitialized
+[2022-04-26 14:07:39.298] [3423] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2022-04-26 14:07:39.298] [3423] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2022-04-26 14:07:39.298] [3423] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2022-04-26 14:07:39.298] [3423] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2022-04-26 14:07:39.298] [3423] (audio_mixer_manager_pulse_linux.cc:196): MicrophoneIsInitialized
+[2022-04-26 14:07:39.299] [3423] (audio_device_impl.cc:574): output: 1
+[2022-04-26 14:07:39.299] [3423] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2022-04-26 14:07:39.299] [3423] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2022-04-26 14:07:39.299] [3423] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2022-04-26 14:07:39.299] [3423] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2022-04-26 14:07:39.299] [3423] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2022-04-26 14:07:39.299] [3423] (audio_engine.cpp:154): Setting audio output device: 'default'
+[2022-04-26 14:07:39.299] [3423] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2022-04-26 14:07:39.299] [3423] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2022-04-26 14:07:39.299] [3423] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2022-04-26 14:07:39.299] [3423] (audio_mixer_manager_pulse_linux.cc:189): SpeakerIsInitialized
+[2022-04-26 14:07:39.300] [3423] (audio_device_impl.cc:620): output: 1
+[2022-04-26 14:07:39.300] [3423] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2022-04-26 14:07:39.300] [3423] (audio_device_buffer.cc:206): SetPlayoutChannels(2)

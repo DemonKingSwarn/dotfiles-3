@@ -1,0 +1,5 @@
+[Added Associations]
+image/png=nsxiv.desktop;
+image/jpeg=nsxiv.desktop;
+image/jpg=nsxiv.desktop;
+application/x-executable=emacs.desktop;

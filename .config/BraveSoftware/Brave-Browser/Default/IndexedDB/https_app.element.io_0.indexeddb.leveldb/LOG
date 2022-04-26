@@ -1,0 +1,48 @@
+2022/04/22-14:50:11.297 c403 Reusing MANIFEST /home/demonkingswarn/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.element.io_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/22-14:50:11.298 c403 Recovering log #4
+2022/04/22-14:50:11.301 c403 Reusing old log /home/demonkingswarn/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.element.io_0.indexeddb.leveldb/000004.log 
+2022/04/22-14:50:14.599 c401 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/04/22-14:50:14.655 c19d Level-0 table #8: started
+2022/04/22-14:50:14.732 c19d Level-0 table #8: 135698 bytes OK
+2022/04/22-14:50:14.944 c19d Delete type=0 #4
+2022/04/22-14:50:14.945 8bfb Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/04/22-14:50:14.989 c403 Level-0 table #10: started
+2022/04/22-14:50:15.066 c403 Level-0 table #10: 816 bytes OK
+2022/04/22-14:50:15.199 c403 Delete type=0 #7
+2022/04/22-14:50:15.199 c403 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 1366 : 1
+2022/04/22-14:50:15.199 c403 Compacting 1@0 + 1@1 files
+2022/04/22-14:50:15.299 c403 Generated table #11@0: 339 keys, 9538 bytes
+2022/04/22-14:50:15.299 c403 Compacted 1@0 + 1@1 files => 9538 bytes
+2022/04/22-14:50:15.499 c403 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/22-14:50:15.499 c403 Delete type=2 #10
+2022/04/22-14:50:15.499 c403 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 1366 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/04/22-14:50:15.544 c403 Level-0 table #13: started
+2022/04/22-14:50:15.610 c403 Level-0 table #13: 2425 bytes OK
+2022/04/22-14:50:15.710 c403 Delete type=2 #8
+2022/04/22-14:50:15.710 c403 Delete type=0 #9
+2022/04/22-14:50:15.711 c403 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0a\x00\x00\x05' @ 1528 : 1
+2022/04/22-14:50:15.712 c403 Compacting 1@0 + 1@1 files
+2022/04/22-14:50:15.766 c403 Generated table #14@0: 455 keys, 11243 bytes
+2022/04/22-14:50:15.766 c403 Compacted 1@0 + 1@1 files => 11243 bytes
+2022/04/22-14:50:15.832 c403 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/22-14:50:15.832 c403 Delete type=2 #13
+2022/04/22-14:50:15.833 c403 Manual compaction at level-0 from '\x00\x0a\x00\x00\x05' @ 1528 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/04/22-15:00:42.484 c19d Compacting 1@1 + 1@2 files
+2022/04/22-15:00:44.332 c19d Generated table #15@1: 181 keys, 9128 bytes
+2022/04/22-15:00:44.332 c19d Compacted 1@1 + 1@2 files => 9128 bytes
+2022/04/22-15:00:44.520 c19d compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/22-15:00:44.521 c19d Delete type=2 #5
+2022/04/22-15:00:44.521 c19d Delete type=2 #11
+2022/04/22-15:00:44.521 c19d Delete type=2 #14
+2022/04/22-15:17:49.982 151de Level-0 table #17: started
+2022/04/22-15:17:50.245 151de Level-0 table #17: 693360 bytes OK
+2022/04/22-15:17:50.424 151de Delete type=0 #12
+2022/04/22-15:17:50.426 151de Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/04/22-15:17:50.426 151de Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x0a\x0b\x02\x04\x01\x01\x1e\x00!\x00P\x00P\x00B\x00w\x00i\x00b\x00G\x00V\x00w\x00n\x00T\x00A\x00O\x00e\x00Q\x00V\x00e\x00a\x00:\x00m\x00a\x00t\x00r\x00i\x00x\x00.\x00o\x00r\x00g' @ 3234 : 1
+2022/04/22-15:17:50.426 151de Compacting 1@1 + 1@2 files
+2022/04/22-15:17:50.590 151de Generated table #18@1: 688 keys, 172969 bytes
+2022/04/22-15:17:50.590 151de Compacted 1@1 + 1@2 files => 172969 bytes
+2022/04/22-15:17:50.790 151de compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/22-15:17:50.790 151de Delete type=2 #15
+2022/04/22-15:17:50.790 151de Delete type=2 #17
+2022/04/22-15:17:50.790 151de Manual compaction at level-1 from '\x00\x0a\x0b\x02\x04\x01\x01\x1e\x00!\x00P\x00P\x00B\x00w\x00i\x00b\x00G\x00V\x00w\x00n\x00T\x00A\x00O\x00e\x00Q\x00V\x00e\x00a\x00:\x00m\x00a\x00t\x00r\x00i\x00x\x00.\x00o\x00r\x00g' @ 3234 : 1 .. (end); will stop at (end)

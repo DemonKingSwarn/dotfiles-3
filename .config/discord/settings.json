@@ -1,0 +1,12 @@
+{
+  "BACKGROUND_COLOR": "#202225",
+  "IS_MAXIMIZED": false,
+  "IS_MINIMIZED": false,
+  "WINDOW_BOUNDS": {
+    "x": 12,
+    "y": 44,
+    "width": 1342,
+    "height": 712
+  },
+  "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true
+}

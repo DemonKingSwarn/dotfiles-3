@@ -1,0 +1,128 @@
+15:04:23.828: CPU Name: Intel(R) Core(TM) i3-2330M CPU @ 2.20GHz
+15:04:23.828: CPU Speed: 886.437MHz
+15:04:23.829: Physical Cores: 2, Logical Cores: 4
+15:04:23.829: Physical Memory: 2821MB Total, 245MB Free
+15:04:23.829: Kernel Version: Linux 5.16.10-arch1-1
+15:04:23.868: Distribution: "Arch Linux" Unknown
+15:04:23.868: Session Type: tty
+15:04:23.868: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+15:04:23.871: Qt Version: 5.15.3 (runtime), 5.15.3 (compiled)
+15:04:23.871: Portable mode: false
+15:04:23.992: OBS 27.2.3-1 (linux)
+15:04:23.992: ---------------------------------
+15:04:23.993: ---------------------------------
+15:04:23.993: audio settings reset:
+15:04:23.993: 	samples per sec: 48000
+15:04:23.993: 	speakers:        2
+15:04:24.132: ---------------------------------
+15:04:24.132: Initializing OpenGL...
+15:04:24.174: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) HD Graphics 3000 (SNB GT2)
+15:04:24.175: OpenGL loaded successfully, version 3.3 (Core Profile) Mesa 21.3.7, shading language 3.30
+15:04:24.392: ---------------------------------
+15:04:24.392: video settings reset:
+15:04:24.392: 	base resolution:   1366x768
+15:04:24.392: 	output resolution: 1092x614
+15:04:24.392: 	downscale filter:  Bicubic
+15:04:24.392: 	fps:               30/1
+15:04:24.392: 	format:            NV12
+15:04:24.392: 	YUV mode:          709/Partial
+15:04:24.392: NV12 texture support not available
+15:04:24.398: Audio monitoring device:
+15:04:24.398: 	name: Default
+15:04:24.398: 	id: default
+15:04:24.398: ---------------------------------
+15:04:24.401: Failed to load 'en-US' text for module: 'decklink-captions.so'
+15:04:24.415: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+15:04:25.929: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+15:04:25.930: No blackmagic support
+15:04:26.174: v4l2loopback not installed, virtual camera disabled
+15:04:26.621: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+15:04:26.621: 
+15:04:26.621: FFMPEG VAAPI supported
+15:04:26.756: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+15:04:26.756: 
+15:04:26.757: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+15:04:26.760: ---------------------------------
+15:04:26.760:   Loaded Modules:
+15:04:26.760:     text-freetype2.so
+15:04:26.760:     rtmp-services.so
+15:04:26.760:     obs-x264.so
+15:04:26.760:     obs-transitions.so
+15:04:26.760:     obs-outputs.so
+15:04:26.760:     obs-libfdk.so
+15:04:26.760:     obs-filters.so
+15:04:26.760:     obs-ffmpeg.so
+15:04:26.760:     linux-v4l2.so
+15:04:26.760:     linux-pulseaudio.so
+15:04:26.760:     linux-jack.so
+15:04:26.760:     linux-decklink.so
+15:04:26.760:     linux-capture.so
+15:04:26.760:     linux-alsa.so
+15:04:26.760:     image-source.so
+15:04:26.760:     frontend-tools.so
+15:04:26.760:     decklink-ouput-ui.so
+15:04:26.760:     decklink-captions.so
+15:04:26.760: ---------------------------------
+15:04:26.760: ==== Startup complete ===============================================
+15:04:26.808: All scene data cleared
+15:04:26.808: ------------------------------------------------
+15:04:26.817: pulse-input: Server name: 'pulseaudio 15.0'
+15:04:26.819: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+15:04:26.819: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+15:04:26.819: [Loaded global audio device]: 'Desktop Audio'
+15:04:26.820: pulse-input: Server name: 'pulseaudio 15.0'
+15:04:26.821: pulse-input: An error occurred while getting the source info!
+15:04:26.821: [Loaded global audio device]: 'Mic/Aux'
+15:04:26.822: xshm-input: Geometry 1366x768 @ 0,0
+15:04:26.828: Switched to scene 'Scene'
+15:04:26.828: ------------------------------------------------
+15:04:26.828: Loaded scenes:
+15:04:26.828: - scene 'Scene':
+15:04:26.828:     - source: 'Screen Capture (XSHM)' (xshm_input)
+15:04:26.829: ------------------------------------------------
+15:04:41.348: v4l2-input: Start capture from 
+15:04:41.348: v4l2-input: Unable to open device
+15:04:41.348: v4l2-input: Initialization failed
+15:04:41.351: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Scene'
+15:04:41.384: v4l2-input: /dev/video1 seems to not support video capture
+15:04:41.512: v4l2-input: Found device 'Laptop_Integrated_Webcam_HD: In' at /dev/video0
+15:04:41.516: v4l2-input: Found input 'Camera 1' (Index 0)
+15:04:41.532: v4l2-input: Start capture from /dev/video0
+15:04:41.535: v4l2-input: Input: 0
+15:04:41.535: v4l2-input: Resolution: 640x480
+15:04:41.535: v4l2-input: Pixelformat: YUYV
+15:04:41.535: v4l2-input: Linesize: 1280 Bytes
+15:04:41.535: v4l2-input: Framerate: 30.00 fps
+15:04:41.550: v4l2-controls: setting default for Power Line Frequency to 0
+15:04:41.558: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+15:04:41.734: v4l2-input: /dev/video0: select timed out
+15:04:41.734: v4l2-input: /dev/video0: failed to log status
+15:04:41.901: v4l2-input: /dev/video0: select timed out
+15:04:41.901: v4l2-input: /dev/video0: failed to log status
+15:04:42.068: v4l2-input: /dev/video0: select timed out
+15:04:42.068: v4l2-input: /dev/video0: failed to log status
+15:04:42.520: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+15:04:42.520: v4l2-input: Pixelformat: Motion-JPEG (available)
+15:04:42.520: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+15:04:42.520: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+15:04:42.520: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+15:04:42.520: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+15:04:42.520: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+15:04:42.521: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+15:04:42.525: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+15:04:42.525: v4l2-input: Pixelformat: Motion-JPEG (available)
+15:04:42.525: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+15:04:42.525: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+15:04:42.525: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+15:04:42.525: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+15:04:42.525: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+15:04:42.526: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+15:04:42.530: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+15:05:42.002: Failed to fetch parent window geometry!
+15:05:42.002: Failed to fetch parent window geometry!
+15:05:42.002: Failed to fetch parent window geometry!
+15:05:42.003: Failed to fetch parent window geometry!
+15:05:42.035: Failed to fetch parent window geometry!
+15:05:42.036: Failed to fetch parent window geometry!
+15:05:42.036: Failed to fetch parent window geometry!
+15:05:42.037: Failed to fetch parent window geometry!

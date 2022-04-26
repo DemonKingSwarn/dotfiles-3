@@ -24,6 +24,10 @@
     summary = "🖼️ Scrot 🖼️"
     new_icon = /home/demonkingswarn/.config/dunst/image.png
 
+[flameshot]
+	summary = "Flameshot Info"
+	new_icon = /home/demonkingswarn/.config/dunst/image.png
+
 [blueman]
     appname = blueman
     new_icon = /home/demonkingswarn/.config/dunst/bluetooth.png

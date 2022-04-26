@@ -1,0 +1,12 @@
+[Picture]
+path = "/home/demonkingswarn/pix/"
+extensions = [".jpg",".jpeg",".png"]
+[Music]
+path = "/home/demonkingswarn/musics/"
+extensions = [".mp3",".wav"]
+[Video]
+path = "/home/demonkingswarn/vids/"
+extensions = [".mp4"]
+[Arcive]
+path = "/home/demonkingswarn/dox/Compressed/"
+extensions = [".zip",".rar",".7z"]

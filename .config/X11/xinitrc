@@ -1,5 +1,5 @@
-#!/bin/env bash
+#!/usr/bin/env sh
 
-$HOME/.scripts/startup.sh &
+$HOME/.scripts/system/startup.sh &
 
 exec bspwm
