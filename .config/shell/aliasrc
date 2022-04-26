@@ -3,7 +3,7 @@
 alias dots="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias ..='cd ..'
 alias hst='nvim ~/.config/zsh/histfile'
-alias ls='exa -lg --icons'
+alias ls='exa --icons'
 alias zrc="nvim $HOME/.config/zsh/.zshrc"
 alias ga='git add'
 alias gc='git commit -m'
