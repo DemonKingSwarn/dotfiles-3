@@ -66,6 +66,9 @@ lfcd () {
 }
 bindkey -s '^o' 'lfcd\n'
 
+# set fzf colors
+export FZF_DEFAULT_OPTS='--color=fg:#f8f8f2,bg:#282a36,hl:#bd93f9 --color=fg+:#f8f8f2,bg+:#44475a,hl+:#bd93f9 --color=info:#ffb86c,prompt:#50fa7b,pointer:#ff79c6 --color=marker:#ff79c6,spinner:#ffb86c,header:#6272a4'
+
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
@@ -74,4 +77,8 @@ source "$HOME/.config/shell/profile"
 source "$XDG_CONFIG_HOME/shell/aliasrc"
 source "$HOME/dl/gitthings/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
-cat ~/.cache/wal/sequences
+if [ "$TERM" = "xterm-kitty" ] ; then
+	eval "$(starship init zsh)"
+else
+	cat ~/.cache/wal/sequences
+fi
