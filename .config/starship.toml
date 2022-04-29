@@ -1,5 +1,5 @@
 # Don't print a new line at the start of the prompt
-add_newline = false
+add_newline = true
 
 # Make prompt a single line instead of two lines
 [line_break]
@@ -18,3 +18,30 @@ disabled = true
 # Disable the package module, hiding it from the prompt completely
 [package]
 disabled = true
+
+[aws]
+style = "bold #ffb86c"
+
+[character]
+error_symbol = "[❯](bold #ff5555)"
+success_symbol = "[❯](bold #50fa7b)"
+
+[cmd_duration]
+style = "bold #f1fa8c"
+
+[directory]
+style = "bold #50fa7b"
+
+[git_branch]
+style = "bold #ff79c6"
+
+[git_status]
+style = "bold #ff5555"
+
+[hostname]
+style = "bold #bd93f9"
+
+
+[username]
+format = "[$user]($style) on "
+style_user = "bold #8be9fd"
