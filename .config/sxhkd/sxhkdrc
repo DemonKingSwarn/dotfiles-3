@@ -9,6 +9,9 @@ Print
 super + Print
 	flameshot gui
 
+F12
+	rofi -show run && rm -f ~/pix/rofi.png && scrot -F ~/pix/rofi.png && xclip -sel c -t image/png ~/pix/rofi.png
+
 super + d
 	rofi -show run
 
@@ -16,7 +19,7 @@ alt + d
 	dmenu_run -l 10
 
 super + Return
-	st
+	kitty
 
 super + w
 	$HOME/.scripts/custom_emoji/custom_emoji.sh
@@ -44,6 +47,7 @@ XF86AudioMute
 
 super + shift + x
 	~/.scripts/system/lock.sh
+	#slock
 
 super + alt + {q,r}
 	bspc {quit,wm -r}
