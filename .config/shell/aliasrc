@@ -3,21 +3,34 @@
 alias dots="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias ..='cd ..'
 alias hst='nvim ~/.config/zsh/histfile'
-alias ls='exa --icons'
 alias zrc="nvim $HOME/.config/zsh/.zshrc"
 alias ga='git add'
 alias gc='git commit -m'
 alias push='git push'
-alias neofetch='neofetch --source ~/.config/neofetch/neofetch.txt'
+alias weather='curl -s "https://wttr.in/?1n"'
+
+if [ "$TERM" = "xterm-kitty" ] ; then
+	alias neofetch='neofetch --kitty ~/.config/neofetch/neofetch.jpeg --size 15%'
+else
+	alias neofetch='neofetch --source ~/.config/neofetch/neofetch.txt'
+fi
+
 alias cat="bat --paging=never"
 alias less="bat --paging=always"
 alias x='exit'
+
+if [ "$TERM" = "linux" ] ; then
+	alias ls='/bin/ls --color=auto'
+else
+	alias ls='exa --icons'
+fi
 
 # Confirmations
 alias mv='mvg -ig'
 alias rm='rm -i'
 alias ln='ln -i'
 alias cp='cpg -ig'
+
 alias shred='shred -f -u -z -v -n 3'
 
 # QoL
@@ -30,4 +43,4 @@ alias xco='xclip -selection clipboard -o'
 alias install="paru -S --noconfirm"
 alias uninstall="paru -R --noconfirm"
 alias update="paru -Syu --noconfirm"
-alias garbage="paru -Rs $(paru -Qqtd)"
+alias garbage="paru -Rs $(paru -Qqtd) --noconfirm"

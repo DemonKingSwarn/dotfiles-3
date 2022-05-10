@@ -66,6 +66,21 @@ lfcd () {
 }
 bindkey -s '^o' 'lfcd\n'
 
+function chst {
+    [ -z $1 ] && echo "no args provided!" || (curl -s cheat.sh/$1 | bat --style=plain)
+}
+
+fshow() {
+  git log --graph --color=always \
+      --format="%C(auto)%h%d %s %C(black)%C(bold)%cr" "$@" |
+  fzf --ansi --no-sort --reverse --tiebreak=index --bind=ctrl-s:toggle-sort \
+      --bind "ctrl-m:execute:
+                (grep -o '[a-f0-9]\{7\}' | head -1 |
+                xargs -I % sh -c 'git show --color=always % | less -R') << 'FZF-EOF'
+                {}
+FZF-EOF"
+}
+
 # set fzf colors
 export FZF_DEFAULT_OPTS='--color=fg:#f8f8f2,bg:#282a36,hl:#bd93f9 --color=fg+:#f8f8f2,bg+:#44475a,hl+:#bd93f9 --color=info:#ffb86c,prompt:#50fa7b,pointer:#ff79c6 --color=marker:#ff79c6,spinner:#ffb86c,header:#6272a4'
 
@@ -77,8 +92,19 @@ source "$HOME/.config/shell/profile"
 source "$XDG_CONFIG_HOME/shell/aliasrc"
 source "$HOME/dl/gitthings/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
-if [ "$TERM" = "xterm-kitty" ] ; then
+# kitty settings
+if [ "$TERM" = "xterm-kitty" ] ; then 
 	eval "$(starship init zsh)"
-else
+	colorscript -r
+fi
+
+# st settings
+if [ "$TERM" = "st-256color" ] ; then 
 	cat ~/.cache/wal/sequences
+	clear
+fi
+
+# tty settings
+if [ "$TERM" = "linux" ] ; then
+	colorscript -r
 fi

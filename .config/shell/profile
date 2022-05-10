@@ -1,10 +1,12 @@
 #!/bin/zsh
 
+# To start x session
 if [ "$TTY" = "/dev/tty1" ]; then
 	printf "\033[1;32mBooting into bspwm!\033[0m\n"
 	startx "$XDG_CONFIG_HOME/X11/xinitrc" -- -keeptty 2> /dev/null
 fi
 
+# to set tty's color scheme
 if [ "$TERM" = "linux" ]; then
 	printf %b '\e[40m' '\e[8]'
 	printf %b '\e[37m' '\e[8]' 
@@ -27,7 +29,7 @@ if [ "$TERM" = "linux" ]; then
 	clear
 fi
 
-
+# hackerman stuff
 export EDITOR="nvim"
 export TERMINAL="st"
 export BROWSER="firefox"
@@ -36,5 +38,5 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
 
-export PATH=/home/demonkingswarn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/demonkingswarn/.cargo/bin:/home/demonkingswarn/.local/bin/statusbar
+export PATH=/home/demonkingswarn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/demonkingswarn/.cargo/bin:/home/demonkingswarn/.local/bin/statusbar:/home/demonkingswarn/Applications
 
