@@ -1,0 +1,52 @@
+#+TITLE: Dunst Config
+#+PROPERTY: header-args :tangle dunstrc
+
+#+BEGIN_SRC sh
+
+    [global]
+      frame_width = 2
+      font = Iosevka 11.5
+      show_indicators = no
+      history_length = 500
+      alignment = center
+
+    [urgency_normal]
+      background = "#282a36"
+      foreground = "#6272a4"
+      timeout = 5
+      default_icon = /home/demonkingswarn/.config/dunst/normal.png
+
+  [mocp]
+      summary = "🎵 Now playing 🎵"
+      new_icon = /home/demonkingswarn/.config/dunst/music.png
+      set_stack_tag = true
+
+  [ani-dmenu]
+      summary = "😔 Exiting.... 🔴"
+      new_icon = /home/demonkingswarn/.config/dunst/ani-dmenu.png
+
+  [scrot]
+      summary = "🖼️ Scrot 🖼️"
+      new_icon = /home/demonkingswarn/.config/dunst/image.png
+
+  [flameshot]
+	  summary = "Flameshot Info"
+	  new_icon = /home/demonkingswarn/.config/dunst/image.png
+
+  [blueman]
+      appname = blueman
+      new_icon = /home/demonkingswarn/.config/dunst/bluetooth.png
+
+  [discord]
+      appname = discord
+      set_stack_tag = false
+      timeout = 10
+
+  # vim: ft=cfg
+  [play_sound]
+	  summary = "*"
+      script = "~/.config/dunst/notif.sh"
+
+
+
+#+END_SRC

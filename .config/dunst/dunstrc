@@ -5,9 +5,9 @@
     history_length = 500
     alignment = center
 
-[urgency_normal]
-    background = "#2b2b2b"
-    foreground = "#ffffff"
+  [urgency_normal]
+    background = "#282a36"
+    foreground = "#6272a4"
     timeout = 5
     default_icon = /home/demonkingswarn/.config/dunst/normal.png
 
@@ -41,4 +41,3 @@
 [play_sound]
 	summary = "*"
     script = "~/.config/dunst/notif.sh"
-
