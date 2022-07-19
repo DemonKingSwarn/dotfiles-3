@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+wid=$1
+class=$2
+instance=$3
+title=$(xwininfo -id "$wid" | sed '/^xwininfo/!d ; s,.*"\(.*\)".*,\1,')
+
+read W H <<< $(xdotool getdisplaygeometry)
+
+# notify-send "$wid $class $instance"
+
+[[ "$title" == "webcam - mpv" ]] && printf "%s\n" "state=floating" && printf "%s\n" "sticky=on"

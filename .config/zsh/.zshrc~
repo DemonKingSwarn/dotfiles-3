@@ -1,6 +1,6 @@
 #  ____  _____ __  __  ___  _   _
-# |  _ \| ____|  \/  |/ _ \| \ | | (c) Swarnaditya Singh aka DemonKingSwarn
-# | | | |  _| | |\/| | | | |  \| | Github- https://github.com/demonkingswarn
+# |  _ \| ____|  \/  |/ _ \| \ | |
+# | | | |  _| | |\/| | | | |  \| |
 # | |_| | |___| |  | | |_| | |\  |
 # |____/|_____|_|  |_|\___/|_| \_|
 #
@@ -8,7 +8,7 @@
 # Enable colors and change prompt:
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
-PS2="> "
+
 
 # History in cache directory:
 HISTSIZE=10000
@@ -84,25 +84,27 @@ FZF-EOF"
 # set fzf colors
 export FZF_DEFAULT_OPTS='--color=fg:#f8f8f2,bg:#282a36,hl:#bd93f9 --color=fg+:#f8f8f2,bg+:#44475a,hl+:#bd93f9 --color=info:#ffb86c,prompt:#50fa7b,pointer:#ff79c6 --color=marker:#ff79c6,spinner:#ffb86c,header:#6272a4'
 
-# make bat as a manpage
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
-plugins_dir="/usr/share/zsh/plugins"
-
 source "$HOME/.config/shell/profile"
 source "$XDG_CONFIG_HOME/shell/aliasrc"
-source "$plugins_dir/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+source "$HOME/dl/gitthings/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
-eval "$(zoxide init zsh)"
-
-if [ "$TERM" = "linux" ] ; then
-        colorscript -r
-else
-    eval "$(starship init zsh)"
+# kitty settings
+if [ "$TERM" = "xterm-kitty" ] ; then 
+	eval "$(starship init zsh)"
+	colorscript -r
 fi
 
-figlet "fsociety"
+# st settings
+if [ "$TERM" = "st-256color" ] ; then 
+	cat ~/.cache/wal/sequences
+	clear
+fi
+
+# tty settings
+if [ "$TERM" = "linux" ] ; then
+	colorscript -r
+fi

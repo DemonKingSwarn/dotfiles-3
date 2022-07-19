@@ -15,23 +15,32 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
 endif
 
 " Plugged
-call plug#begin(expand('~/.vim/plugged'))
-Plug 'drewtempelmeyer/palenight.vim'
+call plug#begin(expand('~/.local/share/nvim/plugged'))
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'andweeb/presence.nvim'
+Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'preservim/nerdtree'
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
 
 " UI
+set autoindent
+set expandtab
 set number relativenumber
-colorscheme palenight
+colorscheme dracula
 set background=dark
 let g:nord_cursor_line_number_background = 1
 let g:nord_uniform_diff_background = 1
+highlight VertSplit ctermbg=NONE guibg=NONE
 
 " Indentation
 set tabstop=4
 set shiftwidth=4
+set softtabstop=4
+
+set mouse=a
 
 " Use the system clipboard
 set clipboard=unnamedplus
@@ -46,4 +55,3 @@ function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
-

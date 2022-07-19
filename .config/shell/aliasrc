@@ -1,18 +1,21 @@
 #!/bin/zsh
 
 alias dots="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
-alias ..='cd ..'
+alias ..='z ..'
+alias cd='z'
 alias hst='nvim ~/.config/zsh/histfile'
 alias zrc="nvim $HOME/.config/zsh/.zshrc"
 alias ga='git add'
 alias gc='git commit -m'
 alias push='git push'
 alias weather='curl -s "https://wttr.in/?1n"'
+alias vps='ssh -p 58203 demon@43.205.10.149'
+alias pacgraph='pacgraph --show-req-by -b "#232738" -l "#9778d3" -t "#cca9c6" -d "#b8d0eb"'
 
 if [ "$TERM" = "xterm-kitty" ] ; then
-	alias neofetch='neofetch --kitty ~/.config/neofetch/neofetch.jpeg --size 15%'
+        alias neofetch='neofetch --kitty ~/.config/neofetch/neofetch.jpeg --size 15%'
 else
-	alias neofetch='neofetch --source ~/.config/neofetch/neofetch.txt'
+        alias neofetch='neofetch --source ~/.config/neofetch/neofetch.txt'
 fi
 
 alias cat="bat --paging=never"
@@ -20,14 +23,16 @@ alias less="bat --paging=always"
 alias x='exit'
 
 if [ "$TERM" = "linux" ] ; then
-	alias ls='/bin/ls --color=auto'
+        alias ls='/bin/ls --color=auto'
 else
-	alias ls='exa --icons'
+        alias ls='exa --icons'
+        alias ll='exa -lgh'
+        alias la='exa -lagh'
 fi
 
 # Confirmations
 alias mv='mvg -ig'
-alias rm='rm -i'
+alias rm='rip -i'
 alias ln='ln -i'
 alias cp='cpg -ig'
 

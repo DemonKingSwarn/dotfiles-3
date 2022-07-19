@@ -13,13 +13,16 @@ F12
 	rofi -show run && rm -f ~/pix/rofi.png && scrot -F ~/pix/rofi.png && xclip -sel c -t image/png ~/pix/rofi.png
 
 super + d
-	rofi -show run
+	rofi -no-lazy-greb -show run -icon-theme 'Dracula'
 
 alt + d
-	dmenu_run -l 10
+	dmenu_run
 
 super + Return
-	kitty
+	st
+
+super + shift + Return
+	kitty -1
 
 super + w
 	$HOME/.scripts/custom_emoji/custom_emoji.sh
@@ -36,6 +39,9 @@ super + p
 super + f
 	rofi -show file-browser-extended -show-icons -file-browser-hide-parent
 
+super + c
+    camtoggle
+
 XF86AudioRaiseVolume 
 	pamixer -i 2 5%
 
@@ -45,9 +51,20 @@ XF86AudioLowerVolume
 XF86AudioMute 
 	pamixer -t
 
+XF86AudioPlay
+    echo cycle pause | socat - "/tmp/mpvsocket"
+
+XF86AudioNext
+    echo playlist-next | socat - "/tmp/mpvsocket"
+
+XF86AudioPrev
+    echo playlist-prev | socat - "/tmp/mpvsocket"
+
+XF86AudioStop
+    killall mpv
+
 super + shift + x
 	~/.scripts/system/lock.sh
-	#slock
 
 super + alt + {q,r}
 	bspc {quit,wm -r}
