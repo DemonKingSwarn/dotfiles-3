@@ -1,0 +1,4 @@
+#!/bin/sh
+
+bspc subscribe | while read line;do notify-send "Workspace $(printf "%s" "$line" | tr ':' '\n' | sed -nE 's/[O|F|U](.*)/\1/p')" "$(bspc query -T -d focused | tr '{|}' '\n' | sed -nE 's_.*className":"([^,]*)",.*_\1_p')" -r 1 -t 1000;done
+

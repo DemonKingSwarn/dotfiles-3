@@ -1,0 +1,9 @@
+#!/bin/sh
+
+killall picom || picom --experimental-backends -b
+id=$(pidof picom)
+if [ -z "$pid" ] ; then
+    notify-send "compositor" "killed picom"
+else
+    notify-send "compositor" "started picom"
+fi
