@@ -1,7 +1,0 @@
-2022/04/22-14:49:24.412 c1c9 Creating DB /home/demonkingswarn/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.element.io_0.indexeddb.leveldb since it was missing.
-2022/04/22-14:49:24.600 c1c9 Reusing MANIFEST /home/demonkingswarn/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.element.io_0.indexeddb.leveldb/MANIFEST-000001
-2022/04/22-14:49:31.221 c0ad Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
-2022/04/22-14:49:31.377 8bfb Level-0 table #5: started
-2022/04/22-14:49:31.432 8bfb Level-0 table #5: 3371 bytes OK
-2022/04/22-14:49:31.533 8bfb Delete type=0 #3
-2022/04/22-14:49:31.533 8bfb Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

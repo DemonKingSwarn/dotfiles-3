@@ -1,6 +1,0 @@
-2022/04/22-15:19:58.024 5 Reusing MANIFEST /home/demonkingswarn/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2022/04/22-15:19:58.025 5 Recovering log #8
-2022/04/22-15:19:58.026 5 Reusing old log /home/demonkingswarn/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000008.log 
-2022/04/22-15:38:37.750 5 Level-0 table #12: started
-2022/04/22-15:38:38.062 5 Level-0 table #12: 91950 bytes OK
-2022/04/22-15:38:38.318 5 Delete type=0 #8
