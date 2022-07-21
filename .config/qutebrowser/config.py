@@ -9,7 +9,7 @@ c.confirm_quit = ['downloads']
 c.content.canvas_reading = False
 #c.content.cookies.accept = 'all' #teams and zoom need 3rdparty cookies
 c.content.cookies.accept = 'no-3rdparty' #teams need 3rdparty cookies
-c.content.cookies.store = False #doesn't support url patterns yet :sob:
+c.content.cookies.store = True
 c.content.fullscreen.overlay_timeout = 0
 c.content.webrtc_ip_handling_policy = 'default-public-interface-only'
 c.downloads.location.prompt = False
@@ -24,7 +24,7 @@ c.zoom.default = "100%"
 c.downloads.location.directory = "~/dl"
 
 #searx
-c.url.default_page = 'https://search.bus-hit.me/'
+c.url.default_page = 'file:///home/demonkingswarn/.qutebrowser/html/homepage.html'
 c.url.start_pages = 'https://search.bus-hit.me/'
 c.url.searchengines = {'DEFAULT':'https://search.bus-hit.me/?q={}'}
 
@@ -33,6 +33,9 @@ c.fonts.default_family = "JetBrains Mono"
 c.fonts.default_size = "12pt"
 c.fonts.contextmenu = 'default_size default_family'
 c.fonts.prompts = 'default_size default_family'
+
+config.bind(',dr', 'config-cycle content.user_stylesheets ~/.config/qutebrowser/solarized-everything-css/css/darculized/darculized-all-sites.css ""')
+config.set("colors.webpage.darkmode.enabled", True)
 
 dracula.draw.blood(c,{
     'spacing':{
